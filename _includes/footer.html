@@ -1,0 +1,46 @@
+<footer>
+  <div class="container">
+    <ul class="footer-columns">
+      <li class="about">
+        <div class="company-name">
+          <span>{{ site.title }}</span>
+        </div>
+        <p class="editable">{{ site.subtitle }}</p>
+      </li>
+
+      <li class="footer-nav">
+        <h4>General</h4>
+        <ul>
+          <li><a href="/">Products</a></li>
+          <li><a href="/about/">About</a></li>
+          <li><a href="/contact/">Contact</a></li>
+        </ul>
+      </li>
+
+      <li class="footer-nav">
+        <h4>Help</h4>
+        <ul>
+          <li><a href="/shipping/">Shipping</a></li>
+          <li><a href="/returns/">Returns</a></li>
+        </ul>
+      </li>
+
+      <li>
+        <h4>Contact Us</h4>
+        <p>Need help with something? <a href="/contact/">Get in touch</a>.
+        <p class="email"><a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></p>
+        <p><a href="tel:{{ site.phone }}">{{ site.author.phone }}</a></p>
+
+        <div class="social-icons">
+          <a class="facebook"
+            href="https://facebook.com/#">{% include social-icon.html icon="Facebook2" %}</a>
+          <a class="twitter" href="https://twitter.com/#">{% include social-icon.html icon="Twitter" %}</a>
+          <a class="youtube" href="https://youtube.com/c/#">{% include social-icon.html icon="YouTube" %}</a>
+          <a class="linkedin" href="https://linkedin.com/company/#">{% include social-icon.html icon="LinkedIn" %}</a>
+        </div>
+      </li>
+    </ul>
+    <p class="copyright">All Rights Reserved &copy; {{ site.time | date: '%Y' }} {{ site.storeName }}</p>
+    <p class="copyright">Template by <a href="https://cloudcannon.com">CloudCannon</a></p>
+  </div>
+</footer>
