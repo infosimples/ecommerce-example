@@ -1,0 +1,17 @@
+---
+layout: default
+---
+<div class="content">
+  <section class="page">
+    <div class="container">
+      <div class="product-container">
+        <div class="product-details">
+          <h3>{{ page.title }}</h3>
+          <h5><s>${{ page.oldPrice }}</s></h5>
+          <h4>${{ page.currentPrice }}</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+<img height="200px" src={{ product.thumbnailURL }}></img>

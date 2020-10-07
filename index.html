@@ -1,0 +1,31 @@
+---
+layout: default
+title: Commercia
+---
+<section id="promotions" class="container promotions">
+	<h2>The best prices are found here!</h2>
+	<h3>Check these promotions</h3>
+	<div class="content" id="products">
+		<section>
+			<div class="container">
+				<ul class="product-list">
+					{% for product in site.products %}
+					<li>
+						<div class="styles">
+							<a href="{{ product.url }}">
+								<img height="200px" src={{ product.thumbnailURL }}></img>
+								<h4>{{ product.title }}</h4>
+								<h5><s>${{ product.oldPrice }}</s></h5>
+								<h4>${{ product.currentPrice }}</h4>
+							</a>
+						</div>
+					</li>
+					{% endfor %}
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</div>
+		</section>
+	</div>
+</section>

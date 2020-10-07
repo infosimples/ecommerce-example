@@ -6,6 +6,13 @@
 
 .text-container {
 	max-width: 750px;
+
+	svg {
+		fill: #fff;
+		display: inline-block;
+		height: 100px;
+		width: 100px;
+	}
 }
 
 .container {
@@ -55,8 +62,8 @@
 
 	svg {
 		display: inline-block;
-		height: 25px;
-		width: 25px;
+		height: 100px;
+		width: 100px;
 	}
 
 	span {
@@ -154,4 +161,9 @@ blockquote .quote:after {
 .thirds div {
 	flex: 1 1 200px;
 	padding: 100px 40px 0 40px;
+}
+
+.promotions {
+	text-align: center;
+	padding: 30px 0 30px 0;
 }

@@ -1,7 +1,6 @@
 storeName: Commercia
 subtitle: The best ecommerce on the web
 baseurl: ""
-phone: "+55 11 91234-5678"
 url: ""
 
 # Build settings
@@ -10,22 +9,11 @@ plugins:
   - jekyll-feed
 
 collections:
- - products
+ products:
+  output: true
 
 exclude:
   - .jekyll-cache/
   - Gemfile
   - Gemfile.lock
   - README.md
-
-social_icons:
-  - Email
-  - Facebook
-  - Google Plus
-  - Instagram
-  - LinkedIn
-  - Pinterest
-  - Tumblr
-  - Twitter
-  - YouTube
-  - RSS
