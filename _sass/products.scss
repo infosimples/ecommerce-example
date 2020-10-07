@@ -1,5 +1,6 @@
 .styles {
 	width: 100%;
+	min-height: 370px;
 	background: #e3f2fd;
 	position: relative;
 	padding: 20px;
@@ -121,4 +122,22 @@
 			color: #000;
 		}
 	}
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+	height: 100px;
+	width: 400px;
+	margin-bottom: 20px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card-container {
+	// vertical-align: text-top;
+	position: inherit;
+  padding: 2px;
 }

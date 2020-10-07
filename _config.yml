@@ -4,9 +4,8 @@ baseurl: ""
 url: ""
 
 # Build settings
-theme: minima
 plugins:
-  - jekyll-feed
+  - jekyll-sitemap
 
 collections:
  products:

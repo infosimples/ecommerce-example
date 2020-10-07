@@ -2,12 +2,14 @@
   <div class="container">
     <ul class="footer-columns">
       <li class="about">
-        <div class="company-name">
-          {% include social-icon.html icon="SiteLogo" %}
-          <br>
-          <span>{{ site.storeName }}</span>
-        </div>
-        <p class="editable">{{ site.subtitle }}</p>
+        <a href="{{site.url}}">
+          <div class="company-name">
+            {% include social-icon.html icon="SiteLogo" %}
+            <br>
+            <span>{{ site.storeName }}</span>
+          </div>
+          <p class="editable">{{ site.subtitle }}</p>
+        </a>
       </li>
 
       <li class="footer-nav">

@@ -1,9 +1,11 @@
 <header>
   <section class="hero">
-    <div class="text-container">
-      {% include social-icon.html icon="SiteLogo" %}
-      <h2>{{ site.storeName }}</h2>
-      <p>{{ site.subtitle }}</p>
-    </div>
+    <a href="{{site.url}}">
+      <div class="text-container">
+        {% include social-icon.html icon="SiteLogo" %}
+        <h2>{{ site.storeName }}</h2>
+        <p>{{ site.subtitle }}</p>
+      </div>
+    </a>
   </section>
 </header>

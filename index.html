@@ -9,21 +9,19 @@ title: Commercia
 		<section>
 			<div class="container">
 				<ul class="product-list">
-					{% for product in site.products %}
+					{% assign products = site.products | where_exp:"item","item.skus[0].promotion" %}
+					{% for product in products limit: 12 %}
 					<li>
-						<div class="styles">
-							<a href="{{ product.url }}">
-								<img height="200px" src={{ product.thumbnailURL }}></img>
-								<h4>{{ product.title }}</h4>
-								<h5><s>${{ product.oldPrice }}</s></h5>
-								<h4>${{ product.currentPrice }}</h4>
-							</a>
-						</div>
+						<a href="{{ product.url }}">
+							<div class="styles">
+								<img height="200px" src={{ product.skus[0].thumbnailURL }}></img>
+								<h4>{{ product.skus[0].skuName }}</h4>
+								<h5><s>${{ product.skus[0].oldPrice }}</s></h5>
+								<h4>${{ product.skus[0].currentPrice }}</h4>
+							</div>
+						</a>
 					</li>
 					{% endfor %}
-					<li></li>
-					<li></li>
-					<li></li>
 				</ul>
 			</div>
 		</section>

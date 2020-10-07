@@ -4,14 +4,25 @@ layout: default
 <div class="content">
   <section class="page">
     <div class="container">
+      <h2>{{ page.title }}</h2>
+      {% for sku in page.skus %}
       <div class="product-container">
-        <div class="product-details">
-          <h3>{{ page.title }}</h3>
-          <h5><s>${{ page.oldPrice }}</s></h5>
-          <h4>${{ page.currentPrice }}</h4>
+        <div class="card">
+          <img height="100px" src={{ sku.thumbnailURL }}></img>
+          <div class="card-container">
+            {{ sku.skuName }}
+            <br>
+            <p><s>${{ sku.oldPrice }}</s></p>
+            <br>
+            <p>${{ sku.currentPrice }}</p>
+          </div>
         </div>
+      </div>
+      {% endfor %}
+      <div class="product-details">
+        <h4>Description</h4>
+        {{ page.description }}
       </div>
     </div>
   </section>
 </div>
-<img height="200px" src={{ product.thumbnailURL }}></img>
