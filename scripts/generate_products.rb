@@ -54,6 +54,13 @@ COLORS = [
   'Crimson', 'Khaki', 'Hot pink', 'Magenta', 'Olden', 'Plum', 'Olive', 'Cyan'
 ].freeze
 
+# Load categories
+leaf_categories = File.readlines('categories.txt').map do |line|
+  if line.strip.end_with?('END')
+    line.split(' >> ')[0..-2]
+  end
+end.compact
+
 # Generate 1000 products (more SKUs than this)
 1000.times do |i|
   product = {
@@ -71,9 +78,12 @@ COLORS = [
   product['title'] = title.join(' ')
 
   product['skus'] = COLORS.sample(SKUS_PER_PRODUCT_RATIO.sample).map.with_index do |color, i|
+    # 88% of chance of not being on a promotion
     promotion = rand(100) > 88
+    # Price a mean of 50 and std of 10
     oldPrice = Rubystats::NormalDistribution.new(50, 10).rng
     if promotion
+      # Discounts go from 5% to 45%
       discount = rand(0.05..0.45)
       currentPrice = (oldPrice*(1.0-discount))
     else
@@ -99,6 +109,9 @@ COLORS = [
 
   # Jekyll elements
   product['layout'] = 'product'
+
+  # Categories of the product
+  product['categories'] = leaf_categories.sample([1, 1, 1, 1, 1, 1, 1, 2, 2, 3].sample)
 
   File.open("_products/#{product['product_id']}.md", 'w') { |file| file.write(product.to_yaml + "---\n") }
 end

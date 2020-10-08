@@ -26,6 +26,7 @@
 
 .hero {
 	color: #ffffff;
+	padding: 40px 0 0 0;
 	text-align: center;
 	position: relative;
 	z-index: 99;
@@ -166,4 +167,19 @@ blockquote .quote:after {
 .promotions {
 	text-align: center;
 	padding: 30px 0 30px 0;
+}
+
+ul.breadcrumb {
+  padding: 10px 16px;
+	list-style: none;
+	justify-content: center;
+	display: flex;
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+	padding: 0px 15px;
+  display: inline;
+	font-size: 24px;
+	font-weight: bold;
 }

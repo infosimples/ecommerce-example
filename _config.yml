@@ -6,8 +6,10 @@ plugins:
   - jekyll-sitemap
 
 collections:
- products:
-  output: true
+  products:
+    output: true
+  categories:
+    output: true
 
 exclude:
   - .jekyll-cache/

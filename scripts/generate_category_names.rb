@@ -23,7 +23,7 @@ N_LEVEL_4_CATEGORIES = 0..3
 categories = {}
 
 # Open output file
-f = File.open("categories.txt", 'w')
+f = File.open('categories.txt', 'w')
 
 # Generate categories
 LEVEL_1_CATEGORIES.each do |l1|

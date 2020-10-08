@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<div class="content">
+  <section class="page">
+    <div class="container">
+      {% if page.leaf_category == false %}
+      <ul>
+      {% for child in page.child_categories %}
+        <li><a>{{child}}</li></a>
+      {% endfor %}
+      </ul>
+      {% endif %}
+    </div>
+  </section>
+</div>
