@@ -92,8 +92,8 @@ COLORS = [
       'promotion'    => promotion,
       'sku'          => sku,
       'skuName'      => "#{product['title']} - #{color}",
-      'thumbnailURL' => "http://pcas.io/300/300?seed=#{sku}",
-      'imageURL'     => "http://pcas.io/600/600?seed=#{sku}"
+      'thumbnailURL' => "https://picsum.photos/seed/#{sku}/300/300",
+      'imageURL'     => "https://picsum.photos/seed/#{sku}/600/600"
     }
   end
 
