@@ -34,16 +34,20 @@ LEVEL_1_CATEGORIES.each do |l1|
   # Generate level 2
   MEANINGLESS_WORDS.sample(rand(N_LEVEL_2_CATEGORIES)).each do |l2|
     categories[l1][l2] = {}
-    f.puts([l1, l2].join(' >> '))
+    l3_cats_num = rand(N_LEVEL_3_CATEGORIES)
+    l3_cats_num == 0 ? cats = [l1, l2, 'END'] : cats = [l1, l2]
+    f.puts(cats.join(' >> '))
 
     # Generate level 3
-    MEANINGLESS_WORDS.sample(rand(N_LEVEL_3_CATEGORIES)).each do |l3|
+    MEANINGLESS_WORDS.sample(l3_cats_num).each do |l3|
       categories[l1][l2][l3] = {}
-      f.puts([l1, l2, l3].join(' >> '))
+      l4_cats_num = rand(N_LEVEL_4_CATEGORIES)
+      l4_cats_num == 0 ? cats = [l1, l2, l3, 'END'] : cats = [l1, l2, l3]
+      f.puts(cats.join(' >> '))
 
       # Generate level 4
-      MEANINGLESS_WORDS.sample(rand(N_LEVEL_4_CATEGORIES)).each do |l4|
-        f.puts([l1, l2, l3, l4].join(' >> '))
+      MEANINGLESS_WORDS.sample(l4_cats_num).each do |l4|
+        f.puts([l1, l2, l3, l4, 'END'].join(' >> '))
       end
     end
   end
