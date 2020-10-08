@@ -125,6 +125,7 @@
 }
 
 .card {
+	display: flex;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 	transition: 0.3s;
 	height: 100px;
@@ -132,12 +133,71 @@
 	margin-bottom: 20px;
 }
 
+.selected {
+	background-color: rgba(15, 185, 240, 0.20);
+}
+
+.not-avaliable {
+	background-color: rgba(90, 90, 90, 0.2);
+	pointer-events: none;
+}
+
+.card img {
+	float: left;
+}
+
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 .card-container {
-	// vertical-align: text-top;
-	position: inherit;
-  padding: 2px;
+	padding: 10px;
+	vertical-align: text-top;
+  width: 100%;
+	display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "sku-name sku-name sku-name"
+    "sku-name sku-name sku-name"
+    "sku-current-price sku-old-price .";
+}
+
+.sku-name {
+	grid-area: sku-name;
+	font-size: 110%;
+}
+
+.sku-old-price {
+  align-items: flex-end;
+	color: #666;
+	display: flex;
+	grid-area: sku-old-price;
+	text-decoration: line-through;
+}
+
+.sku-current-price {
+	align-items: flex-end;
+	display: flex;
+	font-size: 150%;
+	font-weight: bold;
+	grid-area: sku-current-price;
+}
+
+.brand {
+	align-items: center;
+	color: #666;
+	display: flex;
+	justify-content: center;
+	padding: 4px;
+}
+
+.skus-area {
+	display: flex;
+	margin-top: 20px;
+}
+
+.sku-image {
+	margin-left: auto;
 }

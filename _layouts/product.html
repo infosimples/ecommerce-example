@@ -1,24 +1,79 @@
 ---
 layout: default
 ---
+<script type="text/javascript">
+  $(document).ready(function () {
+    $("div.card").bind("click", function () {
+      $('div.card.selected').removeClass('selected')
+      $(this).addClass('selected');
+      $('div.sku-image > img').attr('src', $(this).find('link[itemprop=image]').attr("href"));
+    });
+  });
+</script>
+
+
 <div class="content">
   <section class="page">
     <div class="container">
-      <h2>{{ page.title }}</h2>
-      {% for sku in page.skus %}
-      <div class="product-container">
-        <div class="card">
-          <img height="100px" src={{ sku.thumbnailURL }}></img>
-          <div class="card-container">
-            {{ sku.skuName }}
-            <br>
-            <p><s>${{ sku.oldPrice }}</s></p>
-            <br>
-            <p>${{ sku.currentPrice }}</p>
+      <h2 id="product_title">{{ page.title }}</h2>
+      <div class="brand">{{ page.brand }}</div>
+      <div class="skus-area">
+        <div>
+          {% for sku in page.skus %}
+          {% if forloop.index == 1 %}
+          <div id="product_{{ sku.sku }}" itemtype="http://schema.org/Product" itemscope class="card selected">
+          {% elsif sku.available == false %}
+          <div id="product_{{ sku.sku }}" itemtype="http://schema.org/Product" itemscope class="card not-avaliable">
+          {% else %}
+          <div id="product_{{ sku.sku }}" itemtype="http://schema.org/Product" itemscope class="card">
+          {% endif %}
+            <meta itemprop="name" content="{{ sku.skuName }}" />
+            <meta itemprop="sku" content="{{ sku.sku }}" />
+            <div itemprop="brand" itemtype="http://schema.org/Brand" itemscope>
+              <meta itemprop="name" content="{{ page.brand }}" />
+            </div>
+            <link itemprop="image" href="{{ sku.imageURL }}" />
+            <meta itemprop="description" content="{{ page.description }}" />
+            <div itemprop="offers" itemtype="http://schema.org/Offer" itemscope>
+              <link itemprop="url" href="{{ page.url }}" />
+              <meta itemprop="price" content="{{ sku.currentPrice }}" />
+              <meta itemprop="priceCurrency" content="USD" />
+              {% if sku.available %}
+              <meta itemprop="availability" content="https://schema.org/InStock" />
+              {% else %}
+              <meta itemprop="availability" content="https://schema.org/OutOfStock" />
+              {% endif %}
+              {% if sku.condition == "New" %}
+              <meta itemprop="availability" content="https://schema.org/NewCondition" />
+              {% else %}
+              <meta itemprop="itemCondition" content="https://schema.org/UsedCondition" />
+              {% endif %}
+            </div>
+            <img height="100px" src={{ sku.thumbnailURL }}></img>
+            <div class="card-container">
+              <div class="sku-name">
+                {{ sku.skuName }}
+              </div>
+              {% if sku.available %}
+              <div class="sku-current-price">
+                $ {{ sku.currentPrice }}
+              </div>
+              {% if sku.promotion %}
+              <div class="sku-old-price">
+                $ {{ sku.oldPrice }}
+              </div>
+              {% endif %}
+              {% else %}
+              <i>Out of stock</i>
+              {% endif %}
+            </div>
           </div>
+          {% endfor %}
+        </div>
+        <div class="sku-image">
+          <img src="{{ page.skus[0].imageURL }}"></img>
         </div>
       </div>
-      {% endfor %}
       <div class="product-details">
         <h4>Description</h4>
         {{ page.description }}

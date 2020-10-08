@@ -12,7 +12,7 @@ title: Commercia
 					{% assign products = site.products | where_exp:"item","item.skus[0].promotion" %}
 					{% for product in products limit: 12 %}
 					<li>
-						<a href="{{ product.url }}">
+						<a href="{{ product.url | relative_url }}">
 							<div class="styles">
 								<img height="200px" src={{ product.skus[0].thumbnailURL }}></img>
 								<h4>{{ product.skus[0].skuName }}</h4>
