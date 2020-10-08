@@ -1,7 +1,5 @@
 storeName: Commercia
 subtitle: The best ecommerce on the web
-baseurl: ""
-url: ""
 
 # Build settings
 plugins:
