@@ -1,11 +1,13 @@
 ---
 layout: category
-permalink: "/categories/home"
+permalink: "/categories/pets"
 leaf_category: false
 path_to_this_category:
-- Home
+- Pets
 child_categories:
+- Foo
 - Plugh
-- Corge
-- Happor
+- Murkmellow
+- Iponno
+- Girzes
 ---

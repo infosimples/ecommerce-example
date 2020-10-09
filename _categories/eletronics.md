@@ -1,11 +1,16 @@
 ---
 layout: category
-permalink: "/categories/home"
+permalink: "/categories/eletronics"
 leaf_category: false
 path_to_this_category:
-- Home
+- Eletronics
 child_categories:
-- Plugh
+- Grault
 - Corge
+- Garply
 - Happor
+- Cruts
+- Dredz
+- Plumbus
+- Quuz
 ---

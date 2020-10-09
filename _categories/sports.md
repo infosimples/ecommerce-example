@@ -1,11 +1,12 @@
 ---
 layout: category
-permalink: "/categories/home"
+permalink: "/categories/sports"
 leaf_category: false
 path_to_this_category:
-- Home
+- Sports
 child_categories:
-- Plugh
-- Corge
+- Ploo
+- Girzes
+- Foo
 - Happor
 ---

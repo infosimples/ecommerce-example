@@ -1,11 +1,13 @@
 ---
 layout: category
-permalink: "/categories/home"
+permalink: "/categories/health_care"
 leaf_category: false
 path_to_this_category:
-- Home
+- Health & Care
 child_categories:
-- Plugh
-- Corge
+- Qux
+- Quux
+- Dredz
+- Grault
 - Happor
 ---

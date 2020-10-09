@@ -1,11 +1,13 @@
 ---
 layout: category
-permalink: "/categories/home"
+permalink: "/categories/multimedia"
 leaf_category: false
 path_to_this_category:
-- Home
+- Multimedia
 child_categories:
-- Plugh
-- Corge
-- Happor
+- Grault
+- Bar
+- Quux
+- Baz
+- Qux
 ---

@@ -1,11 +1,11 @@
 ---
 layout: category
-permalink: "/categories/home"
+permalink: "/categories/fashion"
 leaf_category: false
 path_to_this_category:
-- Home
+- Fashion
 child_categories:
-- Plugh
-- Corge
-- Happor
+- Baz
+- Dinglebop
+- Qux
 ---

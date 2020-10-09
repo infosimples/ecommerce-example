@@ -1,11 +1,12 @@
 ---
 layout: category
-permalink: "/categories/home"
+permalink: "/categories/toys_games"
 leaf_category: false
 path_to_this_category:
-- Home
+- Toys & Games
 child_categories:
-- Plugh
-- Corge
+- Blurri
 - Happor
+- Plugh
+- Cruts
 ---
