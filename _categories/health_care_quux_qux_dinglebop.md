@@ -4,9 +4,13 @@ permalink: "/categories/health_care/quux/qux/dinglebop"
 leaf_category: true
 title: Dinglebop - Commercia
 path_to_this_category:
-- Health & Care
-- Quux
-- Qux
-- Dinglebop
+- name: Health & Care
+  url: "/categories/health_care"
+- name: Quux
+  url: "/categories/health_care/quux"
+- name: Qux
+  url: "/categories/health_care/quux/qux"
+- name: Dinglebop
+  url: "/categories/health_care/quux/qux/dinglebop"
 child_categories: []
 ---

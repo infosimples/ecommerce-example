@@ -4,8 +4,10 @@ permalink: "/categories/multimedia/grault"
 leaf_category: false
 title: Grault - Commercia
 path_to_this_category:
-- Multimedia
-- Grault
+- name: Multimedia
+  url: "/categories/multimedia"
+- name: Grault
+  url: "/categories/multimedia/grault"
 child_categories:
 - name: Girzes
   url: "/categories/multimedia/grault/girzes"

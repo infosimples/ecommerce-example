@@ -4,9 +4,12 @@ permalink: "/categories/eletronics/corge/corge"
 leaf_category: false
 title: Corge - Commercia
 path_to_this_category:
-- Eletronics
-- Corge
-- Corge
+- name: Eletronics
+  url: "/categories/eletronics"
+- name: Corge
+  url: "/categories/eletronics/corge"
+- name: Corge
+  url: "/categories/eletronics/corge/corge"
 child_categories:
 - name: Qux
   url: "/categories/eletronics/corge/corge/qux"

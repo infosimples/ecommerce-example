@@ -4,9 +4,12 @@ permalink: "/categories/sports/foo/dredz"
 leaf_category: false
 title: Dredz - Commercia
 path_to_this_category:
-- Sports
-- Foo
-- Dredz
+- name: Sports
+  url: "/categories/sports"
+- name: Foo
+  url: "/categories/sports/foo"
+- name: Dredz
+  url: "/categories/sports/foo/dredz"
 child_categories:
 - name: Platpor
   url: "/categories/sports/foo/dredz/platpor"

@@ -4,13 +4,27 @@ layout: default
 <div class="content">
   <section class="page">
     <div class="container">
-      {% if page.leaf_category == false %}
-      <ul>
-      {% for child in page.child_categories %}
-        <li><a href={{ child.url }}>{{ child.name }}</li></a>
-      {% endfor %}
-      </ul>
-      {% endif %}
+      <nav aria-label="breadcrumbs" class="current-category">
+        <a href="{{ '/' | relative_url }}">Commercia</a>>
+        {% for parent in page.path_to_this_category %}
+        {% if forloop.last %}
+        <a class="bold" href="{{ parent.url | relative_url }}">{{ parent.name }}</a>
+        {% else %}
+        <a href="{{ parent.url | relative_url }}">{{ parent.name }}</a> >
+        {% endif %}
+        {% endfor %}
+      </nav>
+
+      <div class="categories-sidebar">
+        {% if page.leaf_category == false %}
+        <p>Subcategories:</p>
+        <ul>
+        {% for child in page.child_categories %}
+          <li><a href={{ child.url | relative_url}}>{{ child.name }}</li></a>
+        {% endfor %}
+        </ul>
+        {% endif %}
+      </div>
     </div>
   </section>
 </div>

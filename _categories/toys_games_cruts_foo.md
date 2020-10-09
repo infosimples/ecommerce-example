@@ -4,9 +4,12 @@ permalink: "/categories/toys_games/cruts/foo"
 leaf_category: false
 title: Foo - Commercia
 path_to_this_category:
-- Toys & Games
-- Cruts
-- Foo
+- name: Toys & Games
+  url: "/categories/toys_games"
+- name: Cruts
+  url: "/categories/toys_games/cruts"
+- name: Foo
+  url: "/categories/toys_games/cruts/foo"
 child_categories:
 - name: Dredz
   url: "/categories/toys_games/cruts/foo/dredz"

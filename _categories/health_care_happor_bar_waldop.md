@@ -4,9 +4,13 @@ permalink: "/categories/health_care/happor/bar/waldop"
 leaf_category: true
 title: Waldop - Commercia
 path_to_this_category:
-- Health & Care
-- Happor
-- Bar
-- Waldop
+- name: Health & Care
+  url: "/categories/health_care"
+- name: Happor
+  url: "/categories/health_care/happor"
+- name: Bar
+  url: "/categories/health_care/happor/bar"
+- name: Waldop
+  url: "/categories/health_care/happor/bar/waldop"
 child_categories: []
 ---

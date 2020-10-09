@@ -4,8 +4,10 @@ permalink: "/categories/sports/foo"
 leaf_category: false
 title: Foo - Commercia
 path_to_this_category:
-- Sports
-- Foo
+- name: Sports
+  url: "/categories/sports"
+- name: Foo
+  url: "/categories/sports/foo"
 child_categories:
 - name: Qux
   url: "/categories/sports/foo/qux"

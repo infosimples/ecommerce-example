@@ -33,12 +33,21 @@ def remove_bad_characters(string)
 end
 
 def save_category(category)
-  filename = remove_bad_characters(category['path_to_this_category'].join('_'))
+  filename = remove_bad_characters(category['path_to_this_category'].map{|p| p['name']}.join('_'))
   File.open("_categories/#{filename}.md", 'w') { |file| file.write(category.to_yaml + "---\n") }
 end
 
 def generate_permalink(keys)
   "/categories/#{keys.map{|k| remove_bad_characters(k) }.join('/')}"
+end
+
+def generate_hash_with_name_and_category(names)
+  names.each_with_index.map  do |v, i|
+    {
+      'name' => v,
+      'url'  => generate_permalink(names.slice(0, i + 1))
+    }
+  end
 end
 
 categories.each do |k1, v1|
@@ -48,7 +57,7 @@ categories.each do |k1, v1|
     'permalink'             => generate_permalink([k1]),
     'leaf_category'         => false,
     'title'                 => "#{k1} - Commercia",
-    'path_to_this_category' => [k1],
+    'path_to_this_category' => generate_hash_with_name_and_category([k1]),
     'child_categories'      => v1.keys.map{|k| { 'name' => k, 'url' => generate_permalink([k1, k])}}
   })
 
@@ -58,7 +67,7 @@ categories.each do |k1, v1|
       'permalink'             => generate_permalink([k1, k2]),
       'leaf_category'         => v2.empty?,
       'title'                 => "#{k2} - Commercia",
-      'path_to_this_category' => [k1, k2],
+      'path_to_this_category' => generate_hash_with_name_and_category([k1, k2]),
       'child_categories'      => v2.keys.map{|k| { 'name' => k, 'url' => generate_permalink([k1, k2, k])}}
     })
 
@@ -68,7 +77,7 @@ categories.each do |k1, v1|
         'permalink'             => generate_permalink([k1, k2, k3]),
         'leaf_category'         => v3.empty?,
         'title'                 => "#{k3} - Commercia",
-        'path_to_this_category' => [k1, k2, k3],
+        'path_to_this_category' => generate_hash_with_name_and_category([k1, k2, k3]),
         'child_categories'      => v3.keys.map{|k| { 'name' => k, 'url' => generate_permalink([k1, k2, k3, k])}}
       })
 
@@ -78,7 +87,7 @@ categories.each do |k1, v1|
           'permalink'             => generate_permalink([k1, k2, k3, k4]),
           'leaf_category'         => v4.empty?,
           'title'                 => "#{k4} - Commercia",
-          'path_to_this_category' => [k1, k2, k3, k4],
+          'path_to_this_category' => generate_hash_with_name_and_category([k1, k2, k3, k4]),
           'child_categories'      => []
         })
       end

@@ -4,8 +4,10 @@ permalink: "/categories/toys_games/blurri"
 leaf_category: false
 title: Blurri - Commercia
 path_to_this_category:
-- Toys & Games
-- Blurri
+- name: Toys & Games
+  url: "/categories/toys_games"
+- name: Blurri
+  url: "/categories/toys_games/blurri"
 child_categories:
 - name: Baz
   url: "/categories/toys_games/blurri/baz"

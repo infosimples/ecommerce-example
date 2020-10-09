@@ -4,8 +4,10 @@ permalink: "/categories/eletronics/plumbus"
 leaf_category: false
 title: Plumbus - Commercia
 path_to_this_category:
-- Eletronics
-- Plumbus
+- name: Eletronics
+  url: "/categories/eletronics"
+- name: Plumbus
+  url: "/categories/eletronics/plumbus"
 child_categories:
 - name: Iponno
   url: "/categories/eletronics/plumbus/iponno"

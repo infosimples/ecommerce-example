@@ -4,9 +4,12 @@ permalink: "/categories/eletronics/grault/platpor"
 leaf_category: false
 title: Platpor - Commercia
 path_to_this_category:
-- Eletronics
-- Grault
-- Platpor
+- name: Eletronics
+  url: "/categories/eletronics"
+- name: Grault
+  url: "/categories/eletronics/grault"
+- name: Platpor
+  url: "/categories/eletronics/grault/platpor"
 child_categories:
 - name: Girzes
   url: "/categories/eletronics/grault/platpor/girzes"

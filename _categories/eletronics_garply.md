@@ -4,8 +4,10 @@ permalink: "/categories/eletronics/garply"
 leaf_category: false
 title: Garply - Commercia
 path_to_this_category:
-- Eletronics
-- Garply
+- name: Eletronics
+  url: "/categories/eletronics"
+- name: Garply
+  url: "/categories/eletronics/garply"
 child_categories:
 - name: Quuz
   url: "/categories/eletronics/garply/quuz"

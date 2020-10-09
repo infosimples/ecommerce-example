@@ -4,9 +4,13 @@ permalink: "/categories/health_care/quux/bar/girzes"
 leaf_category: true
 title: Girzes - Commercia
 path_to_this_category:
-- Health & Care
-- Quux
-- Bar
-- Girzes
+- name: Health & Care
+  url: "/categories/health_care"
+- name: Quux
+  url: "/categories/health_care/quux"
+- name: Bar
+  url: "/categories/health_care/quux/bar"
+- name: Girzes
+  url: "/categories/health_care/quux/bar/girzes"
 child_categories: []
 ---

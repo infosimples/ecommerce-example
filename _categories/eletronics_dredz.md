@@ -4,8 +4,10 @@ permalink: "/categories/eletronics/dredz"
 leaf_category: false
 title: Dredz - Commercia
 path_to_this_category:
-- Eletronics
-- Dredz
+- name: Eletronics
+  url: "/categories/eletronics"
+- name: Dredz
+  url: "/categories/eletronics/dredz"
 child_categories:
 - name: Plumbus
   url: "/categories/eletronics/dredz/plumbus"

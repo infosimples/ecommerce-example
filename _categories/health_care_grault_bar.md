@@ -4,9 +4,12 @@ permalink: "/categories/health_care/grault/bar"
 leaf_category: false
 title: Bar - Commercia
 path_to_this_category:
-- Health & Care
-- Grault
-- Bar
+- name: Health & Care
+  url: "/categories/health_care"
+- name: Grault
+  url: "/categories/health_care/grault"
+- name: Bar
+  url: "/categories/health_care/grault/bar"
 child_categories:
 - name: Blurri
   url: "/categories/health_care/grault/bar/blurri"

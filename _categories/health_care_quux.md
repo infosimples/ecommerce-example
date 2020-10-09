@@ -4,8 +4,10 @@ permalink: "/categories/health_care/quux"
 leaf_category: false
 title: Quux - Commercia
 path_to_this_category:
-- Health & Care
-- Quux
+- name: Health & Care
+  url: "/categories/health_care"
+- name: Quux
+  url: "/categories/health_care/quux"
 child_categories:
 - name: Garply
   url: "/categories/health_care/quux/garply"

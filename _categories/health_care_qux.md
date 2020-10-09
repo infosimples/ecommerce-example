@@ -4,8 +4,10 @@ permalink: "/categories/health_care/qux"
 leaf_category: false
 title: Qux - Commercia
 path_to_this_category:
-- Health & Care
-- Qux
+- name: Health & Care
+  url: "/categories/health_care"
+- name: Qux
+  url: "/categories/health_care/qux"
 child_categories:
 - name: Iponno
   url: "/categories/health_care/qux/iponno"

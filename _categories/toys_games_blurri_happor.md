@@ -4,9 +4,12 @@ permalink: "/categories/toys_games/blurri/happor"
 leaf_category: false
 title: Happor - Commercia
 path_to_this_category:
-- Toys & Games
-- Blurri
-- Happor
+- name: Toys & Games
+  url: "/categories/toys_games"
+- name: Blurri
+  url: "/categories/toys_games/blurri"
+- name: Happor
+  url: "/categories/toys_games/blurri/happor"
 child_categories:
 - name: Iponno
   url: "/categories/toys_games/blurri/happor/iponno"

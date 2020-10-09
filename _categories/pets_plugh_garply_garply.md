@@ -4,9 +4,13 @@ permalink: "/categories/pets/plugh/garply/garply"
 leaf_category: true
 title: Garply - Commercia
 path_to_this_category:
-- Pets
-- Plugh
-- Garply
-- Garply
+- name: Pets
+  url: "/categories/pets"
+- name: Plugh
+  url: "/categories/pets/plugh"
+- name: Garply
+  url: "/categories/pets/plugh/garply"
+- name: Garply
+  url: "/categories/pets/plugh/garply/garply"
 child_categories: []
 ---

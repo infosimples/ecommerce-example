@@ -4,9 +4,12 @@ permalink: "/categories/health_care/happor/girzes"
 leaf_category: false
 title: Girzes - Commercia
 path_to_this_category:
-- Health & Care
-- Happor
-- Girzes
+- name: Health & Care
+  url: "/categories/health_care"
+- name: Happor
+  url: "/categories/health_care/happor"
+- name: Girzes
+  url: "/categories/health_care/happor/girzes"
 child_categories:
 - name: Quux
   url: "/categories/health_care/happor/girzes/quux"

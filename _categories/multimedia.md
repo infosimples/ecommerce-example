@@ -4,7 +4,8 @@ permalink: "/categories/multimedia"
 leaf_category: false
 title: Multimedia - Commercia
 path_to_this_category:
-- Multimedia
+- name: Multimedia
+  url: "/categories/multimedia"
 child_categories:
 - name: Grault
   url: "/categories/multimedia/grault"

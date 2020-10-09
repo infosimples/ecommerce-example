@@ -4,7 +4,8 @@ permalink: "/categories/health_care"
 leaf_category: false
 title: Health & Care - Commercia
 path_to_this_category:
-- Health & Care
+- name: Health & Care
+  url: "/categories/health_care"
 child_categories:
 - name: Qux
   url: "/categories/health_care/qux"

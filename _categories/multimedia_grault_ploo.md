@@ -4,9 +4,12 @@ permalink: "/categories/multimedia/grault/ploo"
 leaf_category: false
 title: Ploo - Commercia
 path_to_this_category:
-- Multimedia
-- Grault
-- Ploo
+- name: Multimedia
+  url: "/categories/multimedia"
+- name: Grault
+  url: "/categories/multimedia/grault"
+- name: Ploo
+  url: "/categories/multimedia/grault/ploo"
 child_categories:
 - name: Plugh
   url: "/categories/multimedia/grault/ploo/plugh"

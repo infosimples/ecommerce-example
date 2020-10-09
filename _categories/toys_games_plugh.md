@@ -4,8 +4,10 @@ permalink: "/categories/toys_games/plugh"
 leaf_category: false
 title: Plugh - Commercia
 path_to_this_category:
-- Toys & Games
-- Plugh
+- name: Toys & Games
+  url: "/categories/toys_games"
+- name: Plugh
+  url: "/categories/toys_games/plugh"
 child_categories:
 - name: Dinglebop
   url: "/categories/toys_games/plugh/dinglebop"

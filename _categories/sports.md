@@ -4,7 +4,8 @@ permalink: "/categories/sports"
 leaf_category: false
 title: Sports - Commercia
 path_to_this_category:
-- Sports
+- name: Sports
+  url: "/categories/sports"
 child_categories:
 - name: Ploo
   url: "/categories/sports/ploo"

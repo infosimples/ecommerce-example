@@ -4,8 +4,10 @@ permalink: "/categories/eletronics/grault"
 leaf_category: false
 title: Grault - Commercia
 path_to_this_category:
-- Eletronics
-- Grault
+- name: Eletronics
+  url: "/categories/eletronics"
+- name: Grault
+  url: "/categories/eletronics/grault"
 child_categories:
 - name: Murkmellow
   url: "/categories/eletronics/grault/murkmellow"

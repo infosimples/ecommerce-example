@@ -4,7 +4,8 @@ permalink: "/categories/fashion"
 leaf_category: false
 title: Fashion - Commercia
 path_to_this_category:
-- Fashion
+- name: Fashion
+  url: "/categories/fashion"
 child_categories:
 - name: Baz
   url: "/categories/fashion/baz"

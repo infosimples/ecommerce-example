@@ -4,7 +4,8 @@ permalink: "/categories/toys_games"
 leaf_category: false
 title: Toys & Games - Commercia
 path_to_this_category:
-- Toys & Games
+- name: Toys & Games
+  url: "/categories/toys_games"
 child_categories:
 - name: Blurri
   url: "/categories/toys_games/blurri"

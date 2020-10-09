@@ -4,7 +4,8 @@ permalink: "/categories/eletronics"
 leaf_category: false
 title: Eletronics - Commercia
 path_to_this_category:
-- Eletronics
+- name: Eletronics
+  url: "/categories/eletronics"
 child_categories:
 - name: Grault
   url: "/categories/eletronics/grault"

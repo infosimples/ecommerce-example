@@ -4,8 +4,10 @@ permalink: "/categories/pets/girzes"
 leaf_category: false
 title: Girzes - Commercia
 path_to_this_category:
-- Pets
-- Girzes
+- name: Pets
+  url: "/categories/pets"
+- name: Girzes
+  url: "/categories/pets/girzes"
 child_categories:
 - name: Cruts
   url: "/categories/pets/girzes/cruts"

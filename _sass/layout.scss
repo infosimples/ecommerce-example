@@ -48,7 +48,6 @@
 }
 
 .content {
-	background: #fff;
 	padding: 1px 0 0 0;
 	position: relative;
 }
@@ -182,4 +181,28 @@ ul.breadcrumb li {
   display: inline;
 	font-size: 24px;
 	font-weight: bold;
+}
+
+.current-category {
+	font-size: 18px;
+	color: rgb(130, 130, 130);
+	a {
+		color: rgb(130, 130, 130);
+		transition: none;
+	}
+
+	a.bold {
+		font-weight: bold;
+	}
+
+	a:hover{
+		color: rgb(100, 100, 100);
+		transition: none;
+	}
+}
+
+.categories-sidebar {
+	li {
+		list-style: none;
+	}
 }

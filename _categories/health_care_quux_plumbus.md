@@ -4,8 +4,11 @@ permalink: "/categories/health_care/quux/plumbus"
 leaf_category: true
 title: Plumbus - Commercia
 path_to_this_category:
-- Health & Care
-- Quux
-- Plumbus
+- name: Health & Care
+  url: "/categories/health_care"
+- name: Quux
+  url: "/categories/health_care/quux"
+- name: Plumbus
+  url: "/categories/health_care/quux/plumbus"
 child_categories: []
 ---

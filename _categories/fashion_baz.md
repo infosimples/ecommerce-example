@@ -4,8 +4,10 @@ permalink: "/categories/fashion/baz"
 leaf_category: false
 title: Baz - Commercia
 path_to_this_category:
-- Fashion
-- Baz
+- name: Fashion
+  url: "/categories/fashion"
+- name: Baz
+  url: "/categories/fashion/baz"
 child_categories:
 - name: Dinglebop
   url: "/categories/fashion/baz/dinglebop"

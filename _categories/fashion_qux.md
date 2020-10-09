@@ -4,8 +4,10 @@ permalink: "/categories/fashion/qux"
 leaf_category: false
 title: Qux - Commercia
 path_to_this_category:
-- Fashion
-- Qux
+- name: Fashion
+  url: "/categories/fashion"
+- name: Qux
+  url: "/categories/fashion/qux"
 child_categories:
 - name: Blurri
   url: "/categories/fashion/qux/blurri"

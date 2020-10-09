@@ -4,7 +4,8 @@ permalink: "/categories/pets"
 leaf_category: false
 title: Pets - Commercia
 path_to_this_category:
-- Pets
+- name: Pets
+  url: "/categories/pets"
 child_categories:
 - name: Foo
   url: "/categories/pets/foo"

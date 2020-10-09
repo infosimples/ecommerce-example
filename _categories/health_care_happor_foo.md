@@ -4,9 +4,12 @@ permalink: "/categories/health_care/happor/foo"
 leaf_category: false
 title: Foo - Commercia
 path_to_this_category:
-- Health & Care
-- Happor
-- Foo
+- name: Health & Care
+  url: "/categories/health_care"
+- name: Happor
+  url: "/categories/health_care/happor"
+- name: Foo
+  url: "/categories/health_care/happor/foo"
 child_categories:
 - name: Cruts
   url: "/categories/health_care/happor/foo/cruts"

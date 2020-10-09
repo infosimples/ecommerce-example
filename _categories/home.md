@@ -4,7 +4,8 @@ permalink: "/categories/home"
 leaf_category: false
 title: Home - Commercia
 path_to_this_category:
-- Home
+- name: Home
+  url: "/categories/home"
 child_categories:
 - name: Plugh
   url: "/categories/home/plugh"

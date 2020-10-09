@@ -4,8 +4,10 @@ permalink: "/categories/pets/plugh"
 leaf_category: false
 title: Plugh - Commercia
 path_to_this_category:
-- Pets
-- Plugh
+- name: Pets
+  url: "/categories/pets"
+- name: Plugh
+  url: "/categories/pets/plugh"
 child_categories:
 - name: Corge
   url: "/categories/pets/plugh/corge"

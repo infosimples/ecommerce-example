@@ -4,9 +4,12 @@ permalink: "/categories/fashion/baz/murkmellow"
 leaf_category: false
 title: Murkmellow - Commercia
 path_to_this_category:
-- Fashion
-- Baz
-- Murkmellow
+- name: Fashion
+  url: "/categories/fashion"
+- name: Baz
+  url: "/categories/fashion/baz"
+- name: Murkmellow
+  url: "/categories/fashion/baz/murkmellow"
 child_categories:
 - name: Dinglebop
   url: "/categories/fashion/baz/murkmellow/dinglebop"
