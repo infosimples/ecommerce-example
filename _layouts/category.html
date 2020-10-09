@@ -7,7 +7,7 @@ layout: default
       {% if page.leaf_category == false %}
       <ul>
       {% for child in page.child_categories %}
-        <li><a>{{child}}</li></a>
+        <li><a href={{ child.url }}>{{ child.name }}</li></a>
       {% endfor %}
       </ul>
       {% endif %}
