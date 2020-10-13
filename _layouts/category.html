@@ -8,9 +8,9 @@ layout: default
         <a href="{{ '/' | relative_url }}">Commercia</a>>
         {% for parent in page.path_to_this_category %}
         {% if forloop.last %}
-        <a class="bold" href="{{ parent.url | relative_url }}">{{ parent.name }}</a>
+        <a class="bold" href="{{ parent.url | append: '/1' | relative_url }}">{{ parent.name }}</a>
         {% else %}
-        <a href="{{ parent.url | relative_url }}">{{ parent.name }}</a> >
+        <a href="{{ parent.url | append: '/1' | relative_url }}">{{ parent.name }}</a> >
         {% endif %}
         {% endfor %}
       </nav>
@@ -20,7 +20,7 @@ layout: default
           <p>Subcategories:</p>
           <ul>
           {% for child in page.child_categories %}
-            <li><a href={{ child.url | relative_url}}>{{ child.name }}</li></a>
+            <li><a href={{ child.url | append: '/1' | relative_url}}>{{ child.name }}</li></a>
           {% endfor %}
           </ul>
           {% endif %}
@@ -28,8 +28,8 @@ layout: default
 
         <div class="products-display">
           {% for product in page.products %}
-          <a href="/products/{{product.id}}" class="product-card">
-            <img src="{{product.thumbnail}}"></img>
+          <a href="{{ product.id | prepend: 'products/' | relative_url }}" class="product-card">
+            <img src="{{ product.thumbnail }}"></img>
             <p>{{product.title}}</p>
             <p class="price">From: <b>${{product.price}}</b></p>
           </a>
