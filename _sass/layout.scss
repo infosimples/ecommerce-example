@@ -234,6 +234,9 @@ ul.breadcrumb li {
 .pagination {
 	margin: auto;
 	padding-top: 30px;
+	flex-basis: 80%;
+	justify-content: center;
+	display: flex;
 }
 
 .pagination a {
