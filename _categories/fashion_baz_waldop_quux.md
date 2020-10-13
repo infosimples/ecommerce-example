@@ -13,4 +13,17 @@ path_to_this_category:
 - name: Quux
   url: "/categories/fashion/baz/waldop/quux"
 child_categories: []
+products:
+- id: '00014'
+  title: Bar Washing Machine
+  thumbnail: https://picsum.photos/seed/S0001401/300/300
+  price: '65.71'
+- id: '00953'
+  title: Clean Grault Keyboard
+  thumbnail: https://picsum.photos/seed/S0095301/300/300
+  price: '47.93'
+- id: '00936'
+  title: Dinglebop Microwave Oven
+  thumbnail: https://picsum.photos/seed/S0093601/300/300
+  price: '53.26'
 ---

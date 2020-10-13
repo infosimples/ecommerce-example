@@ -13,4 +13,9 @@ path_to_this_category:
 - name: Garply
   url: "/categories/pets/plugh/garply/garply"
 child_categories: []
+products:
+- id: '00321'
+  title: Foobar Scale
+  thumbnail: https://picsum.photos/seed/S0032102/300/300
+  price: '35.19'
 ---

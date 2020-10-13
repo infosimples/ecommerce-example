@@ -13,4 +13,13 @@ path_to_this_category:
 - name: Grault
   url: "/categories/home/plugh/corge/grault"
 child_categories: []
+products:
+- id: '00678'
+  title: Corge Keyboard
+  thumbnail: https://picsum.photos/seed/S0067803/300/300
+  price: '34.57'
+- id: '00550'
+  title: Plumbus Shirt
+  thumbnail: https://picsum.photos/seed/S0055001/300/300
+  price: '27.83'
 ---

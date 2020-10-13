@@ -13,4 +13,9 @@ path_to_this_category:
 - name: Foo
   url: "/categories/fashion/baz/foo/foo"
 child_categories: []
+products:
+- id: '00402'
+  title: Grault Iponno Belt
+  thumbnail: https://picsum.photos/seed/S0040201/300/300
+  price: '23.3'
 ---

@@ -13,4 +13,21 @@ path_to_this_category:
 child_categories:
 - name: Murkmellow
   url: "/categories/pets/plugh/corge/murkmellow"
+products:
+- id: '00793'
+  title: Happor Printer
+  thumbnail: https://picsum.photos/seed/S0079301/300/300
+  price: '50.15'
+- id: '00470'
+  title: Bar Blurri Shirt
+  thumbnail: https://picsum.photos/seed/S0047002/300/300
+  price: '42.81'
+- id: '00764'
+  title: Thud Laptop
+  thumbnail: https://picsum.photos/seed/S0076402/300/300
+  price: '30.38'
+- id: '00006'
+  title: Premium Dinglebop Calculator
+  thumbnail: https://picsum.photos/seed/S0000601/300/300
+  price: '37.28'
 ---

@@ -13,4 +13,9 @@ path_to_this_category:
 - name: Waldop
   url: "/categories/eletronics/plumbus/quux/waldop"
 child_categories: []
+products:
+- id: '00372'
+  title: Dredz Turtleneck
+  thumbnail: https://picsum.photos/seed/S0037201/300/300
+  price: '35.4'
 ---

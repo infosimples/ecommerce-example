@@ -13,4 +13,25 @@ path_to_this_category:
 - name: Plugh
   url: "/categories/multimedia/grault/girzes/plugh"
 child_categories: []
+products:
+- id: '00087'
+  title: Clean Quux Suspenders
+  thumbnail: https://picsum.photos/seed/S0008701/300/300
+  price: '54.6'
+- id: '00193'
+  title: Plugh Suspenders
+  thumbnail: https://picsum.photos/seed/S0019301/300/300
+  price: '46.91'
+- id: '00434'
+  title: Dinglebop Skirt
+  thumbnail: https://picsum.photos/seed/S0043401/300/300
+  price: '35.91'
+- id: '00471'
+  title: Dredz Flash Drive
+  thumbnail: https://picsum.photos/seed/S0047102/300/300
+  price: '49.56'
+- id: '00062'
+  title: Dredz Dinglebop Belt
+  thumbnail: https://picsum.photos/seed/S0006201/300/300
+  price: '31.02'
 ---

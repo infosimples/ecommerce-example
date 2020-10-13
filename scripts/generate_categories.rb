@@ -50,45 +50,81 @@ def generate_hash_with_name_and_category(names)
   end
 end
 
+# Get products for each category
+category_products = {}
+Dir['_products/*'].each do |filename|
+  product = YAML.load(File.read(filename))
+  lowest_price_sku = product['skus'].min { |a,b| a['currentPrice'].to_f <=> b['currentPrice'].to_f }
+  product_info = {
+    'id'        => product['product_id'],
+    'title'     => product['title'],
+    'thumbnail' => lowest_price_sku['thumbnailURL'],
+    'price'     => lowest_price_sku['currentPrice']
+  }
+
+  product['categories'].each do |category|
+    (1..category.size).map{|a| category[0,a] }.each do |subcategory|
+      url = generate_permalink(subcategory)
+      if(category_products.has_key?(url))
+        category_products[url] << product_info
+      else
+        category_products[url] = [product_info]
+      end
+    end
+  end
+end
+
+# Now, save the categories info to file
 categories.each do |k1, v1|
   # Level 1
+  url = generate_permalink([k1])
   save_category({
     'layout'                => 'category',
-    'permalink'             => generate_permalink([k1]),
+    'permalink'             => url,
     'leaf_category'         => false,
     'title'                 => "#{k1} - Commercia",
     'path_to_this_category' => generate_hash_with_name_and_category([k1]),
-    'child_categories'      => v1.keys.map{|k| { 'name' => k, 'url' => generate_permalink([k1, k])}}
+    'child_categories'      => v1.keys.map{|k| { 'name' => k, 'url' => generate_permalink([k1, k])}},
+    'products'              => category_products[url]
   })
 
   v1.each do |k2, v2|
+    # Level 2
+    url = generate_permalink([k1, k2])
     save_category({
       'layout'                => 'category',
-      'permalink'             => generate_permalink([k1, k2]),
+      'permalink'             => url,
       'leaf_category'         => v2.empty?,
       'title'                 => "#{k2} - Commercia",
       'path_to_this_category' => generate_hash_with_name_and_category([k1, k2]),
-      'child_categories'      => v2.keys.map{|k| { 'name' => k, 'url' => generate_permalink([k1, k2, k])}}
+      'child_categories'      => v2.keys.map{|k| { 'name' => k, 'url' => generate_permalink([k1, k2, k])}},
+      'products'              => category_products[url]
     })
 
     v2.each do |k3, v3|
+      # Level 3
+      url = generate_permalink([k1, k2, k3])
       save_category({
         'layout'                => 'category',
-        'permalink'             => generate_permalink([k1, k2, k3]),
+        'permalink'             => url,
         'leaf_category'         => v3.empty?,
         'title'                 => "#{k3} - Commercia",
         'path_to_this_category' => generate_hash_with_name_and_category([k1, k2, k3]),
-        'child_categories'      => v3.keys.map{|k| { 'name' => k, 'url' => generate_permalink([k1, k2, k3, k])}}
+        'child_categories'      => v3.keys.map{|k| { 'name' => k, 'url' => generate_permalink([k1, k2, k3, k])}},
+        'products'              => category_products[url]
       })
 
       v3.each do |k4, v4|
+        # Level 4
+        url = generate_permalink([k1, k2, k3, k4])
         save_category({
           'layout'                => 'category',
-          'permalink'             => generate_permalink([k1, k2, k3, k4]),
+          'permalink'             => url,
           'leaf_category'         => v4.empty?,
           'title'                 => "#{k4} - Commercia",
           'path_to_this_category' => generate_hash_with_name_and_category([k1, k2, k3, k4]),
-          'child_categories'      => []
+          'child_categories'      => [],
+          'products'              => category_products[url]
         })
       end
     end

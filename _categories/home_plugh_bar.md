@@ -13,4 +13,9 @@ path_to_this_category:
 child_categories:
 - name: Cruts
   url: "/categories/home/plugh/bar/cruts"
+products:
+- id: '00763'
+  title: Girzes Shorts
+  thumbnail: https://picsum.photos/seed/S0076301/300/300
+  price: '30.78'
 ---
