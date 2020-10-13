@@ -14,16 +14,27 @@ layout: default
         {% endif %}
         {% endfor %}
       </nav>
+      <div style="display: flex;">
+        <div class="categories-sidebar">
+          {% if page.leaf_category == false %}
+          <p>Subcategories:</p>
+          <ul>
+          {% for child in page.child_categories %}
+            <li><a href={{ child.url | relative_url}}>{{ child.name }}</li></a>
+          {% endfor %}
+          </ul>
+          {% endif %}
+        </div>
 
-      <div class="categories-sidebar">
-        {% if page.leaf_category == false %}
-        <p>Subcategories:</p>
-        <ul>
-        {% for child in page.child_categories %}
-          <li><a href={{ child.url | relative_url}}>{{ child.name }}</li></a>
-        {% endfor %}
-        </ul>
-        {% endif %}
+        <div class="products-display">
+          {% for product in page.products %}
+          <a href="/products/{{product.id}}" class="product-card">
+            <img src="{{product.thumbnail}}"></img>
+            <p>{{product.title}}</p>
+            <p class="price">From: <b>${{product.price}}</b></p>
+          </a>
+          {% endfor %}
+        </div>
       </div>
     </div>
   </section>

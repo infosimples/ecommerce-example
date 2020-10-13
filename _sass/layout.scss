@@ -205,4 +205,32 @@ ul.breadcrumb li {
 	li {
 		list-style: none;
 	}
+	padding: 10px;
+	margin: 20px;
+}
+
+.products-display {
+	display: flex;
+	margin: 30px 0 0 0;
+  flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.product-card {
+	height: 300px;
+	width: 180px;
+	margin: 20px 0 10px 0;
+	padding: 20px;
+	border: 1px solid rgb(200, 200, 200);
+	position: relative;
+
+	img {
+		width:  180px;
+		height: auto;
+	}
+
+	.price {
+		position: absolute;
+    bottom: 0;
+	}
 }
