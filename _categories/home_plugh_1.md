@@ -96,6 +96,8 @@ products:
   title: Deluxe Iponno Top
   thumbnail: https://picsum.photos/seed/S0016301/300/300
   price: '28.52'
-first_page: true
-last_page: false
+previous_page: 
+next_page: "/categories/home/plugh/2"
+current_page: 1
+total_products: 27
 ---

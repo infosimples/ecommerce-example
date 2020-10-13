@@ -94,6 +94,8 @@ products:
   title: Happor Telephone
   thumbnail: https://picsum.photos/seed/S0019201/300/300
   price: '36.81'
-first_page: false
-last_page: true
+previous_page: "/categories/fashion/qux/3"
+next_page: 
+current_page: 4
+total_products: 79
 ---

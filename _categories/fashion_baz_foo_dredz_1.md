@@ -42,6 +42,8 @@ products:
   title: Girzes Trousers
   thumbnail: https://picsum.photos/seed/S0044702/300/300
   price: '24.88'
-first_page: true
-last_page: true
+previous_page: 
+next_page: 
+current_page: 1
+total_products: 7
 ---

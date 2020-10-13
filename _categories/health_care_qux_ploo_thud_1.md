@@ -34,6 +34,8 @@ products:
   title: Plumbus Tracksuit
   thumbnail: https://picsum.photos/seed/S0002002/300/300
   price: '43.88'
-first_page: true
-last_page: true
+previous_page: 
+next_page: 
+current_page: 1
+total_products: 5
 ---

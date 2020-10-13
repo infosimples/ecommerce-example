@@ -94,6 +94,8 @@ products:
   title: Dinglebop Microwave Oven
   thumbnail: https://picsum.photos/seed/S0093601/300/300
   price: '53.26'
-first_page: false
-last_page: false
+previous_page: "/categories/fashion/7"
+next_page: "/categories/fashion/9"
+current_page: 8
+total_products: 176
 ---

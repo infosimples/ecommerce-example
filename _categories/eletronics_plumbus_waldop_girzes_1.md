@@ -26,6 +26,8 @@ products:
   title: Ploo Tracksuit
   thumbnail: https://picsum.photos/seed/S0096501/300/300
   price: '28.57'
-first_page: true
-last_page: true
+previous_page: 
+next_page: 
+current_page: 1
+total_products: 3
 ---

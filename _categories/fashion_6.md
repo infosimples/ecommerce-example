@@ -92,6 +92,8 @@ products:
   title: Garply Calculator
   thumbnail: https://picsum.photos/seed/S0030001/300/300
   price: '38.6'
-first_page: false
-last_page: false
+previous_page: "/categories/fashion/5"
+next_page: "/categories/fashion/7"
+current_page: 6
+total_products: 176
 ---

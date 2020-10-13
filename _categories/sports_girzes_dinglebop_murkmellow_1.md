@@ -58,6 +58,8 @@ products:
   title: Plugh Memory Card
   thumbnail: https://picsum.photos/seed/S0000201/300/300
   price: '40.14'
-first_page: true
-last_page: true
+previous_page: 
+next_page: 
+current_page: 1
+total_products: 11
 ---

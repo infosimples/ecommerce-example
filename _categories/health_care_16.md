@@ -94,6 +94,8 @@ products:
   title: Primespace Quux Remote Control
   thumbnail: https://picsum.photos/seed/S0018502/300/300
   price: '42.87'
-first_page: false
-last_page: false
+previous_page: "/categories/health_care/15"
+next_page: "/categories/health_care/17"
+current_page: 16
+total_products: 352
 ---

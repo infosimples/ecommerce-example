@@ -104,6 +104,8 @@ products:
   title: Happor Scale
   thumbnail: https://picsum.photos/seed/S0054603/300/300
   price: '29.84'
-first_page: false
-last_page: false
+previous_page: "/categories/eletronics/3"
+next_page: "/categories/eletronics/5"
+current_page: 4
+total_products: 318
 ---

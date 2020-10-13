@@ -48,6 +48,8 @@ products:
   title: Foobar Printer
   thumbnail: https://picsum.photos/seed/S0079902/300/300
   price: '44.1'
-first_page: true
-last_page: true
+previous_page: 
+next_page: 
+current_page: 1
+total_products: 9
 ---

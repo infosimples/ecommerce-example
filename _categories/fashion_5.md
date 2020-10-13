@@ -94,6 +94,8 @@ products:
   title: New Waldop Fan
   thumbnail: https://picsum.photos/seed/S0094301/300/300
   price: '35.05'
-first_page: false
-last_page: false
+previous_page: "/categories/fashion/4"
+next_page: "/categories/fashion/6"
+current_page: 5
+total_products: 176
 ---

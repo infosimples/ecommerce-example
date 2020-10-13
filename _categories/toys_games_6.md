@@ -96,6 +96,8 @@ products:
   title: Happor Printer
   thumbnail: https://picsum.photos/seed/S0071401/300/300
   price: '45.71'
-first_page: false
-last_page: false
+previous_page: "/categories/toys_games/5"
+next_page: "/categories/toys_games/7"
+current_page: 6
+total_products: 142
 ---

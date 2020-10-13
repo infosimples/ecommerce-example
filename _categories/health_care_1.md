@@ -92,6 +92,8 @@ products:
   title: Platpor Qux Toaster
   thumbnail: https://picsum.photos/seed/S0043801/300/300
   price: '46.78'
-first_page: true
-last_page: false
+previous_page: 
+next_page: "/categories/health_care/2"
+current_page: 1
+total_products: 352
 ---

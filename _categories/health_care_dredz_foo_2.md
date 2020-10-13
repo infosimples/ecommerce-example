@@ -38,6 +38,8 @@ products:
   title: Happor Monitor
   thumbnail: https://picsum.photos/seed/S0067403/300/300
   price: '45.43'
-first_page: false
-last_page: true
+previous_page: "/categories/health_care/dredz/foo/1"
+next_page: 
+current_page: 2
+total_products: 25
 ---

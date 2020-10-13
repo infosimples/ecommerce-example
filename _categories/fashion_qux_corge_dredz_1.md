@@ -46,6 +46,8 @@ products:
   title: Plugh Stove
   thumbnail: https://picsum.photos/seed/S0000801/300/300
   price: '38.21'
-first_page: true
-last_page: true
+previous_page: 
+next_page: 
+current_page: 1
+total_products: 8
 ---

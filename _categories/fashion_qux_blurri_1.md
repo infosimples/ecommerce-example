@@ -98,6 +98,8 @@ products:
   title: Quuz Top
   thumbnail: https://picsum.photos/seed/S0068803/300/300
   price: '43.0'
-first_page: true
-last_page: false
+previous_page: 
+next_page: "/categories/fashion/qux/blurri/2"
+current_page: 1
+total_products: 31
 ---

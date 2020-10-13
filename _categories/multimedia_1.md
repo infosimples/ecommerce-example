@@ -96,6 +96,8 @@ products:
   title: Qux Printer
   thumbnail: https://picsum.photos/seed/S0001101/300/300
   price: '60.2'
-first_page: true
-last_page: false
+previous_page: 
+next_page: "/categories/multimedia/2"
+current_page: 1
+total_products: 97
 ---

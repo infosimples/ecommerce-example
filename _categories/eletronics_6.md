@@ -98,6 +98,8 @@ products:
   title: Foobar Belt
   thumbnail: https://picsum.photos/seed/S0056101/300/300
   price: '63.61'
-first_page: false
-last_page: false
+previous_page: "/categories/eletronics/5"
+next_page: "/categories/eletronics/7"
+current_page: 6
+total_products: 318
 ---

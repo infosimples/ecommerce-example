@@ -34,6 +34,8 @@ products:
   title: Dredz Dinglebop Belt
   thumbnail: https://picsum.photos/seed/S0006201/300/300
   price: '31.02'
-first_page: true
-last_page: true
+previous_page: 
+next_page: 
+current_page: 1
+total_products: 5
 ---

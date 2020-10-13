@@ -102,6 +102,8 @@ products:
   title: Girzes Game Console
   thumbnail: https://picsum.photos/seed/S0063801/300/300
   price: '33.24'
-first_page: false
-last_page: false
+previous_page: "/categories/eletronics/9"
+next_page: "/categories/eletronics/11"
+current_page: 10
+total_products: 318
 ---

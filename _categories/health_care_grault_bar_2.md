@@ -24,6 +24,8 @@ products:
   title: Iponno Hair Dryer
   thumbnail: https://picsum.photos/seed/S0097702/300/300
   price: '36.63'
-first_page: false
-last_page: true
+previous_page: "/categories/health_care/grault/bar/1"
+next_page: 
+current_page: 2
+total_products: 22
 ---

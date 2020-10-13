@@ -102,6 +102,8 @@ products:
   title: Garply Top
   thumbnail: https://picsum.photos/seed/S0032301/300/300
   price: '29.12'
-first_page: false
-last_page: false
+previous_page: "/categories/eletronics/7"
+next_page: "/categories/eletronics/9"
+current_page: 8
+total_products: 318
 ---

@@ -98,6 +98,8 @@ products:
   title: Bar Blurri Shirt
   thumbnail: https://picsum.photos/seed/S0047002/300/300
   price: '42.81'
-first_page: false
-last_page: false
+previous_page: "/categories/health_care/6"
+next_page: "/categories/health_care/8"
+current_page: 7
+total_products: 352
 ---

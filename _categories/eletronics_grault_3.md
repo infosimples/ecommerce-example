@@ -102,6 +102,8 @@ products:
   title: Plugh Shirt
   thumbnail: https://picsum.photos/seed/S0030304/300/300
   price: '28.42'
-first_page: false
-last_page: false
+previous_page: "/categories/eletronics/grault/2"
+next_page: "/categories/eletronics/grault/4"
+current_page: 3
+total_products: 67
 ---

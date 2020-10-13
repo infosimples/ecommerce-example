@@ -96,6 +96,8 @@ products:
   title: Beedlectrics Dredz Book
   thumbnail: https://picsum.photos/seed/S0099601/300/300
   price: '33.08'
-first_page: false
-last_page: false
+previous_page: "/categories/eletronics/plumbus/1"
+next_page: "/categories/eletronics/plumbus/3"
+current_page: 2
+total_products: 42
 ---

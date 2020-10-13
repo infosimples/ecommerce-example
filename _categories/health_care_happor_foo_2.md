@@ -34,6 +34,8 @@ products:
   title: Ploo Flash Drive
   thumbnail: https://picsum.photos/seed/S0057901/300/300
   price: '42.19'
-first_page: false
-last_page: true
+previous_page: "/categories/health_care/happor/foo/1"
+next_page: 
+current_page: 2
+total_products: 24
 ---

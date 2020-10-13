@@ -94,6 +94,8 @@ products:
   title: Qux Telephone
   thumbnail: https://picsum.photos/seed/S0080701/300/300
   price: '37.9'
-first_page: false
-last_page: false
+previous_page: "/categories/health_care/2"
+next_page: "/categories/health_care/4"
+current_page: 3
+total_products: 352
 ---

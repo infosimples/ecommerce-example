@@ -42,6 +42,8 @@ products:
   title: Baz Coffee Maker
   thumbnail: https://picsum.photos/seed/S0074001/300/300
   price: '47.93'
-first_page: true
-last_page: true
+previous_page: 
+next_page: 
+current_page: 1
+total_products: 7
 ---

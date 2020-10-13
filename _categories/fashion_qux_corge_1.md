@@ -98,6 +98,8 @@ products:
   title: Murkmellow Dish Washer
   thumbnail: https://picsum.photos/seed/S0098603/300/300
   price: '42.42'
-first_page: true
-last_page: false
+previous_page: 
+next_page: "/categories/fashion/qux/corge/2"
+current_page: 1
+total_products: 22
 ---

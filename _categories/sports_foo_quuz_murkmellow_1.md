@@ -22,6 +22,8 @@ products:
   title: Beedlectrics Foobar Bathrobe
   thumbnail: https://picsum.photos/seed/S0029702/300/300
   price: '49.32'
-first_page: true
-last_page: true
+previous_page: 
+next_page: 
+current_page: 1
+total_products: 2
 ---

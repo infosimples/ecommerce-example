@@ -98,6 +98,8 @@ products:
   title: Dinglebop Blu-ray
   thumbnail: https://picsum.photos/seed/S0082503/300/300
   price: '29.15'
-first_page: false
-last_page: false
+previous_page: "/categories/health_care/16"
+next_page: "/categories/health_care/18"
+current_page: 17
+total_products: 352
 ---

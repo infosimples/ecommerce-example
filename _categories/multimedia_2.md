@@ -96,6 +96,8 @@ products:
   thumbnail: https://picsum.photos/seed/S0005902/300/300
   price: '47.59'
 - *1
-first_page: false
-last_page: false
+previous_page: "/categories/multimedia/1"
+next_page: "/categories/multimedia/3"
+current_page: 2
+total_products: 97
 ---

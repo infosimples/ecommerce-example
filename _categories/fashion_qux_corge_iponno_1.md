@@ -50,6 +50,8 @@ products:
   title: Plugh Waldop Sewing Machine
   thumbnail: https://picsum.photos/seed/S0077304/300/300
   price: '35.83'
-first_page: true
-last_page: true
+previous_page: 
+next_page: 
+current_page: 1
+total_products: 9
 ---

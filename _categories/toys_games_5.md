@@ -94,6 +94,8 @@ products:
   title: Rabbit Lighting Foobar Game Console
   thumbnail: https://picsum.photos/seed/S0008002/300/300
   price: '35.52'
-first_page: false
-last_page: false
+previous_page: "/categories/toys_games/4"
+next_page: "/categories/toys_games/6"
+current_page: 5
+total_products: 142
 ---

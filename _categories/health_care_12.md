@@ -91,6 +91,8 @@ products:
   title: Plugh Sweater
   thumbnail: https://picsum.photos/seed/S0058401/300/300
   price: '44.14'
-first_page: false
-last_page: false
+previous_page: "/categories/health_care/11"
+next_page: "/categories/health_care/13"
+current_page: 12
+total_products: 352
 ---

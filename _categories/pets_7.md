@@ -96,6 +96,8 @@ products:
   title: Platpor Shorts
   thumbnail: https://picsum.photos/seed/S0024701/300/300
   price: '43.8'
-first_page: false
-last_page: false
+previous_page: "/categories/pets/6"
+next_page: "/categories/pets/8"
+current_page: 7
+total_products: 145
 ---

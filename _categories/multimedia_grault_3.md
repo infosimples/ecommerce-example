@@ -98,6 +98,8 @@ products:
   title: Ploo Thong
   thumbnail: https://picsum.photos/seed/S0007101/300/300
   price: '41.89'
-first_page: false
-last_page: false
+previous_page: "/categories/multimedia/grault/2"
+next_page: "/categories/multimedia/grault/4"
+current_page: 3
+total_products: 61
 ---

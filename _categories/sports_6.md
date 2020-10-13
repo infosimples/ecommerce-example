@@ -64,6 +64,8 @@ products:
   title: Quux Suit
   thumbnail: https://picsum.photos/seed/S0025601/300/300
   price: '47.62'
-first_page: false
-last_page: true
+previous_page: "/categories/sports/5"
+next_page: 
+current_page: 6
+total_products: 112
 ---

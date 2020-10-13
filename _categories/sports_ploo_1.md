@@ -42,6 +42,8 @@ products:
   title: Corge Electric Razor
   thumbnail: https://picsum.photos/seed/S0004501/300/300
   price: '45.15'
-first_page: true
-last_page: true
+previous_page: 
+next_page: 
+current_page: 1
+total_products: 8
 ---

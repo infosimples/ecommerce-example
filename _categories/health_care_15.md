@@ -94,6 +94,8 @@ products:
   title: Waldop Fan
   thumbnail: https://picsum.photos/seed/S0008501/300/300
   price: '47.1'
-first_page: false
-last_page: false
+previous_page: "/categories/health_care/14"
+next_page: "/categories/health_care/16"
+current_page: 15
+total_products: 352
 ---

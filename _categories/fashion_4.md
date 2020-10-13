@@ -94,6 +94,8 @@ products:
   title: Ploo Happor Bar Game Console
   thumbnail: https://picsum.photos/seed/S0015501/300/300
   price: '59.41'
-first_page: false
-last_page: false
+previous_page: "/categories/fashion/3"
+next_page: "/categories/fashion/5"
+current_page: 4
+total_products: 176
 ---

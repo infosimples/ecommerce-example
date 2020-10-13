@@ -100,6 +100,8 @@ products:
   title: Qux Monitor
   thumbnail: https://picsum.photos/seed/S0096202/300/300
   price: '46.59'
-first_page: false
-last_page: false
+previous_page: "/categories/eletronics/11"
+next_page: "/categories/eletronics/13"
+current_page: 12
+total_products: 318
 ---

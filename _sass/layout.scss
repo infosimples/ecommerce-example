@@ -84,10 +84,6 @@
 	box-shadow: 0px 0px 50px rgba(0,0,0,.2);
 }
 
-section {
-	padding: 40px 0;
-}
-
 section + section {
 	padding-top: 0;
 }
@@ -233,4 +229,25 @@ ul.breadcrumb li {
 		position: absolute;
     bottom: 0;
 	}
+}
+
+.pagination {
+	margin: auto;
+	padding-top: 30px;
+}
+
+.pagination a {
+  background-color: $brand-color-2;
+  color: white;
+  float: left;
+	padding: 8px 16px;
+	margin: 0px 3px 0px 3px;
+	text-decoration: none;
+	border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+	border-radius: 5px;
+	color: black;
 }

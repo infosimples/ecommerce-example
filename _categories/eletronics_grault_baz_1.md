@@ -40,6 +40,8 @@ products:
   title: Quux Stove
   thumbnail: https://picsum.photos/seed/S0054701/300/300
   price: '31.48'
-first_page: true
-last_page: true
+previous_page: 
+next_page: 
+current_page: 1
+total_products: 7
 ---

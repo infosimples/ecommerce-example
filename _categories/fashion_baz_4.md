@@ -100,6 +100,8 @@ products:
   title: Plugh Underwear
   thumbnail: https://picsum.photos/seed/S0013102/300/300
   price: '42.69'
-first_page: false
-last_page: false
+previous_page: "/categories/fashion/baz/3"
+next_page: "/categories/fashion/baz/5"
+current_page: 4
+total_products: 92
 ---

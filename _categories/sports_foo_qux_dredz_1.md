@@ -46,6 +46,8 @@ products:
   title: Thud Game Console
   thumbnail: https://picsum.photos/seed/S0027101/300/300
   price: '49.87'
-first_page: true
-last_page: true
+previous_page: 
+next_page: 
+current_page: 1
+total_products: 8
 ---

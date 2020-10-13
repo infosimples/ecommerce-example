@@ -40,6 +40,8 @@ products:
   title: Girzes Dish Washer
   thumbnail: https://picsum.photos/seed/S0029901/300/300
   price: '68.95'
-first_page: true
-last_page: true
+previous_page: 
+next_page: 
+current_page: 1
+total_products: 7
 ---

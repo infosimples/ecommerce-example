@@ -34,6 +34,8 @@ products:
   title: Plugh Sweater
   thumbnail: https://picsum.photos/seed/S0089201/300/300
   price: '48.24'
-first_page: true
-last_page: true
+previous_page: 
+next_page: 
+current_page: 1
+total_products: 5
 ---

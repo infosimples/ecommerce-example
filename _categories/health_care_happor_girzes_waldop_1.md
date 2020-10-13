@@ -54,6 +54,8 @@ products:
   title: Blurri Top
   thumbnail: https://picsum.photos/seed/S0046702/300/300
   price: '33.12'
-first_page: true
-last_page: true
+previous_page: 
+next_page: 
+current_page: 1
+total_products: 10
 ---

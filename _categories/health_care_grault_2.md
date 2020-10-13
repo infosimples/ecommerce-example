@@ -100,6 +100,8 @@ products:
   title: Quux Tuxedo
   thumbnail: https://picsum.photos/seed/S0085701/300/300
   price: '47.84'
-first_page: false
-last_page: false
+previous_page: "/categories/health_care/grault/1"
+next_page: "/categories/health_care/grault/3"
+current_page: 2
+total_products: 50
 ---

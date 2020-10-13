@@ -28,6 +28,8 @@ products:
   title: Basic Girzes Webcam
   thumbnail: https://picsum.photos/seed/S0062401/300/300
   price: '52.53'
-first_page: true
-last_page: true
+previous_page: 
+next_page: 
+current_page: 1
+total_products: 4
 ---

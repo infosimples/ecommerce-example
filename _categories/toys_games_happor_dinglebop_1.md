@@ -34,6 +34,8 @@ products:
   title: Happor Printer
   thumbnail: https://picsum.photos/seed/S0071401/300/300
   price: '45.71'
-first_page: true
-last_page: true
+previous_page: 
+next_page: 
+current_page: 1
+total_products: 5
 ---

@@ -32,6 +32,8 @@ products:
   title: Murkmellow Digital Camera
   thumbnail: https://picsum.photos/seed/S0064401/300/300
   price: '48.02'
-first_page: true
-last_page: true
+previous_page: 
+next_page: 
+current_page: 1
+total_products: 5
 ---

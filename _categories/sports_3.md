@@ -96,6 +96,8 @@ products:
   title: Foobar Game Console
   thumbnail: https://picsum.photos/seed/S0077802/300/300
   price: '47.98'
-first_page: false
-last_page: false
+previous_page: "/categories/sports/2"
+next_page: "/categories/sports/4"
+current_page: 3
+total_products: 112
 ---

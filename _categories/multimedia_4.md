@@ -98,6 +98,8 @@ products:
   title: Modern Red Media Corge Electric Razor
   thumbnail: https://picsum.photos/seed/S0064902/300/300
   price: '43.63'
-first_page: false
-last_page: false
+previous_page: "/categories/multimedia/3"
+next_page: "/categories/multimedia/5"
+current_page: 4
+total_products: 97
 ---

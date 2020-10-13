@@ -92,6 +92,8 @@ products:
   title: Corge Calculator
   thumbnail: https://picsum.photos/seed/S0091805/300/300
   price: '48.07'
-first_page: false
-last_page: false
+previous_page: "/categories/fashion/2"
+next_page: "/categories/fashion/4"
+current_page: 3
+total_products: 176
 ---

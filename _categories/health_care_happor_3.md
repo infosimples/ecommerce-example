@@ -98,6 +98,8 @@ products:
   title: Qux Remote Control
   thumbnail: https://picsum.photos/seed/S0041501/300/300
   price: '41.61'
-first_page: false
-last_page: false
+previous_page: "/categories/health_care/happor/2"
+next_page: "/categories/health_care/happor/4"
+current_page: 3
+total_products: 100
 ---

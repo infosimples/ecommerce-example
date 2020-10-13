@@ -96,6 +96,8 @@ products:
   title: Baz Fan
   thumbnail: https://picsum.photos/seed/S0004603/300/300
   price: '46.47'
-first_page: false
-last_page: false
+previous_page: "/categories/toys_games/cruts/2"
+next_page: "/categories/toys_games/cruts/4"
+current_page: 3
+total_products: 64
 ---

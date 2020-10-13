@@ -94,6 +94,8 @@ products:
   title: Murkmellow Humidifier
   thumbnail: https://picsum.photos/seed/S0090202/300/300
   price: '29.14'
-first_page: false
-last_page: false
+previous_page: "/categories/health_care/3"
+next_page: "/categories/health_care/5"
+current_page: 4
+total_products: 352
 ---

@@ -62,6 +62,8 @@ products:
   title: Platpor CD
   thumbnail: https://picsum.photos/seed/S0070702/300/300
   price: '32.28'
-first_page: true
-last_page: true
+previous_page: 
+next_page: 
+current_page: 1
+total_products: 12
 ---

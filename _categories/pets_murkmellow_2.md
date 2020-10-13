@@ -96,6 +96,8 @@ products:
   title: Dinglebop Laptop
   thumbnail: https://picsum.photos/seed/S0004801/300/300
   price: '44.87'
-first_page: false
-last_page: false
+previous_page: "/categories/pets/murkmellow/1"
+next_page: "/categories/pets/murkmellow/3"
+current_page: 2
+total_products: 46
 ---

@@ -100,6 +100,8 @@ products:
   title: Ploo Dish Washer
   thumbnail: https://picsum.photos/seed/S0033703/300/300
   price: '46.48'
-first_page: false
-last_page: false
+previous_page: "/categories/health_care/happor/1"
+next_page: "/categories/health_care/happor/3"
+current_page: 2
+total_products: 100
 ---

@@ -96,6 +96,8 @@ products:
   title: Happor Skirt
   thumbnail: https://picsum.photos/seed/S0064701/300/300
   price: '41.95'
-first_page: false
-last_page: false
+previous_page: "/categories/pets/2"
+next_page: "/categories/pets/4"
+current_page: 3
+total_products: 145
 ---

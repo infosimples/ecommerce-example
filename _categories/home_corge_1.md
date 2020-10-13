@@ -94,6 +94,8 @@ products:
   title: Foo Suspenders
   thumbnail: https://picsum.photos/seed/S0093301/300/300
   price: '48.14'
-first_page: true
-last_page: false
+previous_page: 
+next_page: "/categories/home/corge/2"
+current_page: 1
+total_products: 38
 ---

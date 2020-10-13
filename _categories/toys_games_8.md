@@ -24,6 +24,8 @@ products:
   title: Foobar Bathrobe
   thumbnail: https://picsum.photos/seed/S0037401/300/300
   price: '56.3'
-first_page: false
-last_page: true
+previous_page: "/categories/toys_games/7"
+next_page: 
+current_page: 8
+total_products: 142
 ---

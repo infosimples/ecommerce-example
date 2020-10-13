@@ -82,6 +82,8 @@ products:
   title: Grault Television
   thumbnail: https://picsum.photos/seed/S0022101/300/300
   price: '42.63'
-first_page: false
-last_page: true
+previous_page: "/categories/multimedia/4"
+next_page: 
+current_page: 5
+total_products: 97
 ---

@@ -96,6 +96,8 @@ products:
   title: Bar Monitor
   thumbnail: https://picsum.photos/seed/S0050701/300/300
   price: '44.38'
-first_page: true
-last_page: false
+previous_page: 
+next_page: "/categories/health_care/grault/bar/2"
+current_page: 1
+total_products: 22
 ---

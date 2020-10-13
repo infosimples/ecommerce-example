@@ -88,6 +88,8 @@ products:
   title: Cruts Turtleneck
   thumbnail: https://picsum.photos/seed/S0037902/300/300
   price: '32.3'
-first_page: true
-last_page: false
+previous_page: 
+next_page: "/categories/fashion/2"
+current_page: 1
+total_products: 176
 ---

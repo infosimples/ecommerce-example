@@ -86,6 +86,8 @@ products:
   title: Dredz Printer
   thumbnail: https://picsum.photos/seed/S0017002/300/300
   price: '45.54'
-first_page: false
-last_page: true
+previous_page: "/categories/home/corge/1"
+next_page: 
+current_page: 2
+total_products: 38
 ---

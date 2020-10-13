@@ -22,6 +22,8 @@ products:
   title: Bar Flash Drive
   thumbnail: https://picsum.photos/seed/S0007201/300/300
   price: '45.2'
-first_page: false
-last_page: true
+previous_page: "/categories/eletronics/dredz/plumbus/1"
+next_page: 
+current_page: 2
+total_products: 21
 ---

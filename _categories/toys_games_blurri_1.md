@@ -100,6 +100,8 @@ products:
   title: Happor Oven
   thumbnail: https://picsum.photos/seed/S0031904/300/300
   price: '40.04'
-first_page: true
-last_page: false
+previous_page: 
+next_page: "/categories/toys_games/blurri/2"
+current_page: 1
+total_products: 32
 ---

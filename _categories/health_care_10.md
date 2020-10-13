@@ -94,6 +94,8 @@ products:
   title: Plumbus Stove
   thumbnail: https://picsum.photos/seed/S0039702/300/300
   price: '48.23'
-first_page: false
-last_page: false
+previous_page: "/categories/health_care/9"
+next_page: "/categories/health_care/11"
+current_page: 10
+total_products: 352
 ---

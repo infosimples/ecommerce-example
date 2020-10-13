@@ -100,6 +100,8 @@ products:
   title: Modern Clean Girzes Cell Phone
   thumbnail: https://picsum.photos/seed/S0016802/300/300
   price: '21.76'
-first_page: false
-last_page: false
+previous_page: "/categories/health_care/qux/2"
+next_page: "/categories/health_care/qux/4"
+current_page: 3
+total_products: 90
 ---

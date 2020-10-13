@@ -98,6 +98,8 @@ products:
   title: Bar Suspenders
   thumbnail: https://picsum.photos/seed/S0009901/300/300
   price: '51.67'
-first_page: true
-last_page: false
+previous_page: 
+next_page: "/categories/health_care/happor/garply/2"
+current_page: 1
+total_products: 21
 ---

@@ -26,6 +26,8 @@ products:
   title: Quux Calculator
   thumbnail: https://picsum.photos/seed/S0036201/300/300
   price: '38.29'
-first_page: false
-last_page: true
+previous_page: "/categories/pets/iponno/1"
+next_page: 
+current_page: 2
+total_products: 23
 ---

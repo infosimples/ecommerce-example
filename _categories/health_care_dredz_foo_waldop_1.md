@@ -58,6 +58,8 @@ products:
   title: Efficient Iponno Fridge
   thumbnail: https://picsum.photos/seed/S0027904/300/300
   price: '39.51'
-first_page: true
-last_page: true
+previous_page: 
+next_page: 
+current_page: 1
+total_products: 11
 ---

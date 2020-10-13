@@ -98,6 +98,8 @@ products:
   title: Clean Foo Swimming Shorts
   thumbnail: https://picsum.photos/seed/S0098202/300/300
   price: '44.5'
-first_page: true
-last_page: false
+previous_page: 
+next_page: "/categories/health_care/dredz/foo/2"
+current_page: 1
+total_products: 25
 ---

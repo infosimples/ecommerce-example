@@ -100,6 +100,8 @@ products:
   title: Foobar Food Processor
   thumbnail: https://picsum.photos/seed/S0035001/300/300
   price: '52.53'
-first_page: false
-last_page: true
+previous_page: "/categories/eletronics/garply/2"
+next_page: 
+current_page: 3
+total_products: 60
 ---

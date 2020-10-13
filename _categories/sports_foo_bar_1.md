@@ -32,6 +32,8 @@ products:
   title: Red Media Ploo Electric Razor
   thumbnail: https://picsum.photos/seed/S0020701/300/300
   price: '57.55'
-first_page: true
-last_page: true
+previous_page: 
+next_page: 
+current_page: 1
+total_products: 5
 ---

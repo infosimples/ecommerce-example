@@ -104,6 +104,8 @@ products:
   title: Waldop Camcorder
   thumbnail: https://picsum.photos/seed/S0034001/300/300
   price: '46.57'
-first_page: true
-last_page: false
+previous_page: 
+next_page: "/categories/eletronics/2"
+current_page: 1
+total_products: 318
 ---

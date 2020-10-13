@@ -98,6 +98,8 @@ products:
   title: Ploo Tracksuit
   thumbnail: https://picsum.photos/seed/S0061203/300/300
   price: '37.26'
-first_page: true
-last_page: false
+previous_page: 
+next_page: "/categories/health_care/happor/girzes/2"
+current_page: 1
+total_products: 26
 ---

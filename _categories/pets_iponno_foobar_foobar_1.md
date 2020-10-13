@@ -30,6 +30,8 @@ products:
   title: Corge Uniform
   thumbnail: https://picsum.photos/seed/S0090301/300/300
   price: '46.78'
-first_page: true
-last_page: true
+previous_page: 
+next_page: 
+current_page: 1
+total_products: 4
 ---

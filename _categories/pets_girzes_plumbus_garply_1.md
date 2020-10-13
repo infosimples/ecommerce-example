@@ -30,6 +30,8 @@ products:
   title: Ploo Suspenders
   thumbnail: https://picsum.photos/seed/S0057101/300/300
   price: '49.9'
-first_page: true
-last_page: true
+previous_page: 
+next_page: 
+current_page: 1
+total_products: 4
 ---

@@ -46,6 +46,8 @@ products:
   title: Waldop Washing Machine
   thumbnail: https://picsum.photos/seed/S0080101/300/300
   price: '66.04'
-first_page: true
-last_page: true
+previous_page: 
+next_page: 
+current_page: 1
+total_products: 8
 ---

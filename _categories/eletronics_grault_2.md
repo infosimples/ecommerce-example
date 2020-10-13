@@ -102,6 +102,8 @@ products:
   title: Foo Washing Machine
   thumbnail: https://picsum.photos/seed/S0085201/300/300
   price: '59.64'
-first_page: false
-last_page: false
+previous_page: "/categories/eletronics/grault/1"
+next_page: "/categories/eletronics/grault/3"
+current_page: 2
+total_products: 67
 ---

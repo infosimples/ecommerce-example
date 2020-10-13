@@ -30,6 +30,8 @@ products:
   title: Happor Fridge
   thumbnail: https://picsum.photos/seed/S0044402/300/300
   price: '30.55'
-first_page: true
-last_page: true
+previous_page: 
+next_page: 
+current_page: 1
+total_products: 4
 ---

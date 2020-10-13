@@ -32,6 +32,8 @@ products:
   title: Premium Dinglebop Calculator
   thumbnail: https://picsum.photos/seed/S0000601/300/300
   price: '37.28'
-first_page: false
-last_page: true
+previous_page: "/categories/toys_games/cruts/3"
+next_page: 
+current_page: 4
+total_products: 64
 ---

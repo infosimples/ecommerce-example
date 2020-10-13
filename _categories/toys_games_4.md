@@ -92,6 +92,8 @@ products:
   title: Dinglebop Smart Phone
   thumbnail: https://picsum.photos/seed/S0071001/300/300
   price: '35.75'
-first_page: false
-last_page: false
+previous_page: "/categories/toys_games/3"
+next_page: "/categories/toys_games/5"
+current_page: 4
+total_products: 142
 ---

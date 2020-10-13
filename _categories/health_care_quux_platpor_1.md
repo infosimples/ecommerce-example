@@ -76,6 +76,8 @@ products:
   title: Happor Telephone
   thumbnail: https://picsum.photos/seed/S0019201/300/300
   price: '36.81'
-first_page: true
-last_page: true
+previous_page: 
+next_page: 
+current_page: 1
+total_products: 15
 ---

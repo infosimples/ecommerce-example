@@ -102,6 +102,8 @@ products:
   title: Waldop Sewing Machine
   thumbnail: https://picsum.photos/seed/S0077101/300/300
   price: '40.11'
-first_page: false
-last_page: false
+previous_page: "/categories/fashion/baz/2"
+next_page: "/categories/fashion/baz/4"
+current_page: 3
+total_products: 92
 ---

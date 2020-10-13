@@ -50,6 +50,8 @@ products:
   title: Baz Flash Drive
   thumbnail: https://picsum.photos/seed/S0031803/300/300
   price: '36.17'
-first_page: true
-last_page: true
+previous_page: 
+next_page: 
+current_page: 1
+total_products: 9
 ---

@@ -96,6 +96,8 @@ products:
   title: Quux Hair Dryer
   thumbnail: https://picsum.photos/seed/S0029401/300/300
   price: '52.83'
-first_page: false
-last_page: false
+previous_page: "/categories/multimedia/2"
+next_page: "/categories/multimedia/4"
+current_page: 3
+total_products: 97
 ---

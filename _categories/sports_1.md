@@ -96,6 +96,8 @@ products:
   title: Super Dinglebop Shirt
   thumbnail: https://picsum.photos/seed/S0068503/300/300
   price: '46.64'
-first_page: true
-last_page: false
+previous_page: 
+next_page: "/categories/sports/2"
+current_page: 1
+total_products: 112
 ---

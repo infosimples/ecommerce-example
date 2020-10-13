@@ -96,6 +96,8 @@ products:
   title: Bar Food Processor
   thumbnail: https://picsum.photos/seed/S0091602/300/300
   price: '33.86'
-first_page: true
-last_page: false
+previous_page: 
+next_page: "/categories/toys_games/2"
+current_page: 1
+total_products: 142
 ---

@@ -34,6 +34,8 @@ products:
   title: Baz Keyboard
   thumbnail: https://picsum.photos/seed/S0049802/300/300
   price: '39.85'
-first_page: true
-last_page: true
+previous_page: 
+next_page: 
+current_page: 1
+total_products: 5
 ---

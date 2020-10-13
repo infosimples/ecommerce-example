@@ -102,6 +102,8 @@ products:
   title: Qux Shirt
   thumbnail: https://picsum.photos/seed/S0077601/300/300
   price: '38.39'
-first_page: false
-last_page: false
+previous_page: "/categories/eletronics/10"
+next_page: "/categories/eletronics/12"
+current_page: 11
+total_products: 318
 ---

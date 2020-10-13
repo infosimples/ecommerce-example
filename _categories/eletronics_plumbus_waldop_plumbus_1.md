@@ -54,6 +54,8 @@ products:
   title: Foobar Smart Phone
   thumbnail: https://picsum.photos/seed/S0036602/300/300
   price: '30.09'
-first_page: true
-last_page: true
+previous_page: 
+next_page: 
+current_page: 1
+total_products: 10
 ---

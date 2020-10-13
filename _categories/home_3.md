@@ -94,6 +94,8 @@ products:
   title: Corge Keyboard
   thumbnail: https://picsum.photos/seed/S0067803/300/300
   price: '34.57'
-first_page: false
-last_page: false
+previous_page: "/categories/home/2"
+next_page: "/categories/home/4"
+current_page: 3
+total_products: 68
 ---

@@ -54,6 +54,8 @@ products:
   title: Grault Telephone
   thumbnail: https://picsum.photos/seed/S0006602/300/300
   price: '35.84'
-first_page: true
-last_page: true
+previous_page: 
+next_page: 
+current_page: 1
+total_products: 10
 ---

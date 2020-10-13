@@ -104,6 +104,8 @@ products:
   title: Dinglebop Deep Freezer
   thumbnail: https://picsum.photos/seed/S0030403/300/300
   price: '41.2'
-first_page: false
-last_page: false
+previous_page: "/categories/eletronics/6"
+next_page: "/categories/eletronics/8"
+current_page: 7
+total_products: 318
 ---

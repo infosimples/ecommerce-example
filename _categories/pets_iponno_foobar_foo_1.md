@@ -54,6 +54,8 @@ products:
   title: Ploo Calculator
   thumbnail: https://picsum.photos/seed/S0096702/300/300
   price: '29.95'
-first_page: true
-last_page: true
+previous_page: 
+next_page: 
+current_page: 1
+total_products: 10
 ---

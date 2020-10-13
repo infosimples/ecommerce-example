@@ -58,6 +58,8 @@ products:
   title: Corge Speaker
   thumbnail: https://picsum.photos/seed/S0048601/300/300
   price: '48.05'
-first_page: true
-last_page: true
+previous_page: 
+next_page: 
+current_page: 1
+total_products: 11
 ---

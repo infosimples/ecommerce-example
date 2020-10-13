@@ -13,6 +13,9 @@ layout: default
         <a href="{{ parent.url | append: '/1' | relative_url }}">{{ parent.name }}</a> >
         {% endif %}
         {% endfor %}
+        <br>
+        {% assign lower_number = page.current_page | minus: 1 | times: 20 | plus: 1 %}
+        <div style="padding: 13px;">Showing {{lower_number}} - {{lower_number | plus: page.products.size | minus: 1}} of {{page.total_products}} products</div>
       </nav>
       <div style="display: flex;">
         <div class="categories-sidebar">
@@ -34,6 +37,15 @@ layout: default
             <p class="price">From: <b>${{product.price}}</b></p>
           </a>
           {% endfor %}
+          <div class="pagination">
+            {% if page.previous_page != nil %}
+            <a href="{{ page.previous_page | relative_url }}">&lt;</a>
+            {% endif %}
+            <a>{{ page.current_page }}</a>
+            {% if page.next_page != nil %}
+            <a href="{{ page.next_page | relative_url }}">&gt;</a>
+            {% endif %}
+          </div>
         </div>
       </div>
     </div>

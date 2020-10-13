@@ -58,6 +58,8 @@ products:
   title: Thud Underwear
   thumbnail: https://picsum.photos/seed/S0050001/300/300
   price: '55.76'
-first_page: true
-last_page: true
+previous_page: 
+next_page: 
+current_page: 1
+total_products: 11
 ---

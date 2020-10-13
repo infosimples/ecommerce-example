@@ -40,6 +40,8 @@ products:
   title: Qux Suspenders
   thumbnail: https://picsum.photos/seed/S0075802/300/300
   price: '49.25'
-first_page: true
-last_page: true
+previous_page: 
+next_page: 
+current_page: 1
+total_products: 7
 ---

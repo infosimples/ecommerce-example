@@ -34,6 +34,8 @@ products:
   title: Quuz MP3 Player
   thumbnail: https://picsum.photos/seed/S0018101/300/300
   price: '33.34'
-first_page: true
-last_page: true
+previous_page: 
+next_page: 
+current_page: 1
+total_products: 5
 ---

@@ -42,6 +42,8 @@ products:
   title: Special Plugh Tie
   thumbnail: https://picsum.photos/seed/S0006901/300/300
   price: '52.64'
-first_page: false
-last_page: true
+previous_page: "/categories/health_care/happor/girzes/1"
+next_page: 
+current_page: 2
+total_products: 26
 ---

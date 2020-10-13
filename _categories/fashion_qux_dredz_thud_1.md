@@ -42,6 +42,8 @@ products:
   title: Happor Food Processor
   thumbnail: https://picsum.photos/seed/S0019801/300/300
   price: '52.89'
-first_page: true
-last_page: true
+previous_page: 
+next_page: 
+current_page: 1
+total_products: 7
 ---

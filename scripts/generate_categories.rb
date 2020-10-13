@@ -39,13 +39,15 @@ end
 
 def create_category(keys, current_value)
   i = 1
-  url_base = generate_permalink(keys)
   path_to_this_category = keys.each_with_index.map{ |v, i|
     {
       'name' => v,
       'url'  => generate_permalink(keys.slice(0, i + 1))
     }
   }
+
+  url_base = generate_permalink(keys)
+  total_products = @category_products[url_base].size
 
   while(!@category_products[url_base].empty?)
     products = @category_products[url_base].shift(20)
@@ -57,8 +59,10 @@ def create_category(keys, current_value)
       'path_to_this_category' => path_to_this_category,
       'child_categories'      => current_value.keys.map{|k| { 'name' => k, 'url' => generate_permalink([*keys, k])}},
       'products'              => products,
-      'first_page'            => i == 1,
-      'last_page'             => @category_products[url_base].empty?
+      'previous_page'         => i == 1 ? nil : "#{url_base}/#{i-1}",
+      'next_page'             => @category_products[url_base].empty? ? nil : "#{url_base}/#{i+1}",
+      'current_page'          => i,
+      'total_products'        => total_products
     }, i)
     i += 1
   end

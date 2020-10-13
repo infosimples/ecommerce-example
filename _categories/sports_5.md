@@ -96,6 +96,8 @@ products:
   title: Plumbus Air Conditioner
   thumbnail: https://picsum.photos/seed/S0040101/300/300
   price: '42.27'
-first_page: false
-last_page: false
+previous_page: "/categories/sports/4"
+next_page: "/categories/sports/6"
+current_page: 5
+total_products: 112
 ---

@@ -98,6 +98,8 @@ products:
   title: Iponno Toaster
   thumbnail: https://picsum.photos/seed/S0066002/300/300
   price: '38.15'
-first_page: false
-last_page: false
+previous_page: "/categories/pets/3"
+next_page: "/categories/pets/5"
+current_page: 4
+total_products: 145
 ---

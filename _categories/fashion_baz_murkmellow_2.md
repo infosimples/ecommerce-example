@@ -22,6 +22,8 @@ products:
   title: Dinglebop Video Camera
   thumbnail: https://picsum.photos/seed/S0090401/300/300
   price: '51.56'
-first_page: false
-last_page: true
+previous_page: "/categories/fashion/baz/murkmellow/1"
+next_page: 
+current_page: 2
+total_products: 21
 ---

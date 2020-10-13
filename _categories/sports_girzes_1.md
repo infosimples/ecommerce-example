@@ -92,6 +92,8 @@ products:
   title: Iponno Iron
   thumbnail: https://picsum.photos/seed/S0061102/300/300
   price: '31.76'
-first_page: true
-last_page: false
+previous_page: 
+next_page: "/categories/sports/girzes/2"
+current_page: 1
+total_products: 22
 ---

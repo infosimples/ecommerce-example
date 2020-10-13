@@ -68,6 +68,8 @@ products:
   title: Corge Suspenders
   thumbnail: https://picsum.photos/seed/S0005204/300/300
   price: '43.75'
-first_page: false
-last_page: true
+previous_page: "/categories/eletronics/corge/3"
+next_page: 
+current_page: 4
+total_products: 72
 ---

@@ -96,6 +96,8 @@ products:
   title: Quux MP3 Player
   thumbnail: https://picsum.photos/seed/S0026502/300/300
   price: '50.37'
-first_page: false
-last_page: false
+previous_page: "/categories/sports/1"
+next_page: "/categories/sports/3"
+current_page: 2
+total_products: 112
 ---

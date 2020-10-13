@@ -98,6 +98,8 @@ products:
   title: Grault Electric Razor
   thumbnail: https://picsum.photos/seed/S0041802/300/300
   price: '40.45'
-first_page: true
-last_page: false
+previous_page: 
+next_page: "/categories/toys_games/cruts/foo/2"
+current_page: 1
+total_products: 29
 ---

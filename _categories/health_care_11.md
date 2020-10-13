@@ -92,6 +92,8 @@ products:
   title: Murkmellow Dryer
   thumbnail: https://picsum.photos/seed/S0028504/300/300
   price: '35.49'
-first_page: false
-last_page: false
+previous_page: "/categories/health_care/10"
+next_page: "/categories/health_care/12"
+current_page: 11
+total_products: 352
 ---

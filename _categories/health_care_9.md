@@ -90,6 +90,8 @@ products:
   title: Dredz Skirt
   thumbnail: https://picsum.photos/seed/S0055502/300/300
   price: '49.78'
-first_page: false
-last_page: false
+previous_page: "/categories/health_care/8"
+next_page: "/categories/health_care/10"
+current_page: 9
+total_products: 352
 ---

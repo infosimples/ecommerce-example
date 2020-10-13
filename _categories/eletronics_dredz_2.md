@@ -98,6 +98,8 @@ products:
   title: Cruts Keyboard
   thumbnail: https://picsum.photos/seed/S0071805/300/300
   price: '31.63'
-first_page: false
-last_page: false
+previous_page: "/categories/eletronics/dredz/1"
+next_page: "/categories/eletronics/dredz/3"
+current_page: 2
+total_products: 52
 ---

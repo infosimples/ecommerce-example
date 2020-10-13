@@ -102,6 +102,8 @@ products:
   title: Iponno Trousers
   thumbnail: https://picsum.photos/seed/S0044501/300/300
   price: '54.93'
-first_page: false
-last_page: false
+previous_page: "/categories/fashion/baz/1"
+next_page: "/categories/fashion/baz/3"
+current_page: 2
+total_products: 92
 ---

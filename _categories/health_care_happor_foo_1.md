@@ -98,6 +98,8 @@ products:
   title: Qux Food Processor
   thumbnail: https://picsum.photos/seed/S0092402/300/300
   price: '49.89'
-first_page: true
-last_page: false
+previous_page: 
+next_page: "/categories/health_care/happor/foo/2"
+current_page: 1
+total_products: 24
 ---

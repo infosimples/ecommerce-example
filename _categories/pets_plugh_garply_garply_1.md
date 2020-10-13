@@ -18,6 +18,8 @@ products:
   title: Foobar Scale
   thumbnail: https://picsum.photos/seed/S0032102/300/300
   price: '35.19'
-first_page: true
-last_page: true
+previous_page: 
+next_page: 
+current_page: 1
+total_products: 1
 ---

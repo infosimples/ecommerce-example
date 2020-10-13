@@ -34,6 +34,8 @@ products:
   title: Qux T-Shirt
   thumbnail: https://picsum.photos/seed/S0006701/300/300
   price: '49.16'
-first_page: false
-last_page: true
+previous_page: "/categories/pets/girzes/2"
+next_page: 
+current_page: 3
+total_products: 44
 ---

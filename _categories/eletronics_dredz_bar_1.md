@@ -68,6 +68,8 @@ products:
   title: Plumbus Food Processor
   thumbnail: https://picsum.photos/seed/S0096901/300/300
   price: '30.52'
-first_page: true
-last_page: true
+previous_page: 
+next_page: 
+current_page: 1
+total_products: 13
 ---

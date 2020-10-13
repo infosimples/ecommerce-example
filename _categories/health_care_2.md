@@ -98,6 +98,8 @@ products:
   title: Plumbus T-Shirt
   thumbnail: https://picsum.photos/seed/S0036903/300/300
   price: '36.13'
-first_page: false
-last_page: false
+previous_page: "/categories/health_care/1"
+next_page: "/categories/health_care/3"
+current_page: 2
+total_products: 352
 ---

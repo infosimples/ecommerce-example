@@ -98,6 +98,8 @@ products:
   title: Bar Tie
   thumbnail: https://picsum.photos/seed/S0084803/300/300
   price: '48.11'
-first_page: true
-last_page: false
+previous_page: 
+next_page: "/categories/sports/foo/dredz/2"
+current_page: 1
+total_products: 22
 ---

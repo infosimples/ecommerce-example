@@ -96,6 +96,8 @@ products:
   title: Foo Electric Razor
   thumbnail: https://picsum.photos/seed/S0062703/300/300
   price: '43.78'
-first_page: true
-last_page: false
+previous_page: 
+next_page: "/categories/fashion/qux/2"
+current_page: 1
+total_products: 79
 ---

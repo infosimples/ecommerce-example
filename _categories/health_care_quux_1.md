@@ -102,6 +102,8 @@ products:
   title: XL Baz Air Conditioner
   thumbnail: https://picsum.photos/seed/S0000902/300/300
   price: '39.47'
-first_page: true
-last_page: false
+previous_page: 
+next_page: "/categories/health_care/quux/2"
+current_page: 1
+total_products: 67
 ---

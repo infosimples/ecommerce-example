@@ -54,6 +54,8 @@ products:
   title: Baz Vacuum Cleaner
   thumbnail: https://picsum.photos/seed/S0009501/300/300
   price: '34.89'
-first_page: true
-last_page: true
+previous_page: 
+next_page: 
+current_page: 1
+total_products: 10
 ---

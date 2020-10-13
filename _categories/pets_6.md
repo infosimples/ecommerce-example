@@ -94,6 +94,8 @@ products:
   title: Cruts Dish Washer
   thumbnail: https://picsum.photos/seed/S0007402/300/300
   price: '45.07'
-first_page: false
-last_page: false
+previous_page: "/categories/pets/5"
+next_page: "/categories/pets/7"
+current_page: 6
+total_products: 145
 ---

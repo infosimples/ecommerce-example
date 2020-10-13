@@ -58,6 +58,8 @@ products:
   title: Quuz Bathrobe
   thumbnail: https://picsum.photos/seed/S0084603/300/300
   price: '43.58'
-first_page: true
-last_page: true
+previous_page: 
+next_page: 
+current_page: 1
+total_products: 11
 ---

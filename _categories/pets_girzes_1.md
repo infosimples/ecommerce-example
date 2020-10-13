@@ -96,6 +96,8 @@ products:
   thumbnail: https://picsum.photos/seed/S0072303/300/300
   price: '47.21'
 - *1
-first_page: true
-last_page: false
+previous_page: 
+next_page: "/categories/pets/girzes/2"
+current_page: 1
+total_products: 44
 ---

@@ -88,6 +88,8 @@ products:
   title: Plumbus Telephone
   thumbnail: https://picsum.photos/seed/S0085001/300/300
   price: '42.73'
-first_page: false
-last_page: false
+previous_page: "/categories/fashion/6"
+next_page: "/categories/fashion/8"
+current_page: 7
+total_products: 176
 ---

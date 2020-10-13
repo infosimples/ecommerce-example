@@ -38,6 +38,8 @@ products:
   title: Foobar Radio
   thumbnail: https://picsum.photos/seed/S0085901/300/300
   price: '49.7'
-first_page: true
-last_page: true
+previous_page: 
+next_page: 
+current_page: 1
+total_products: 6
 ---

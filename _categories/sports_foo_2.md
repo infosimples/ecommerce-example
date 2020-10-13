@@ -100,6 +100,8 @@ products:
   title: Murkmellow Top
   thumbnail: https://picsum.photos/seed/S0056501/300/300
   price: '39.83'
-first_page: false
-last_page: false
+previous_page: "/categories/sports/foo/1"
+next_page: "/categories/sports/foo/3"
+current_page: 2
+total_products: 63
 ---

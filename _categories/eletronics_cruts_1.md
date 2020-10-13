@@ -70,6 +70,8 @@ products:
   title: Murkmellow Underwear
   thumbnail: https://picsum.photos/seed/S0066402/300/300
   price: '49.83'
-first_page: true
-last_page: true
+previous_page: 
+next_page: 
+current_page: 1
+total_products: 14
 ---

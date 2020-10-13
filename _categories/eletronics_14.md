@@ -98,6 +98,8 @@ products:
   title: Foo Smart Phone
   thumbnail: https://picsum.photos/seed/S0099902/300/300
   price: '39.99'
-first_page: false
-last_page: false
+previous_page: "/categories/eletronics/13"
+next_page: "/categories/eletronics/15"
+current_page: 14
+total_products: 318
 ---

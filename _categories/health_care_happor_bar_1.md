@@ -98,6 +98,8 @@ products:
   title: Foobar Game Console
   thumbnail: https://picsum.photos/seed/S0080301/300/300
   price: '38.44'
-first_page: true
-last_page: false
+previous_page: 
+next_page: "/categories/health_care/happor/bar/2"
+current_page: 1
+total_products: 22
 ---

@@ -96,6 +96,8 @@ products:
   title: Bar Coffee Maker
   thumbnail: https://picsum.photos/seed/S0043901/300/300
   price: '38.97'
-first_page: true
-last_page: false
+previous_page: 
+next_page: "/categories/toys_games/cruts/2"
+current_page: 1
+total_products: 64
 ---

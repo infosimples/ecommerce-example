@@ -38,6 +38,8 @@ products:
   title: Thud MP3 Player
   thumbnail: https://picsum.photos/seed/S0079501/300/300
   price: '33.61'
-first_page: true
-last_page: true
+previous_page: 
+next_page: 
+current_page: 1
+total_products: 6
 ---

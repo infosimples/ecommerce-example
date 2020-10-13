@@ -38,6 +38,8 @@ products:
   title: Deluxe Plugh Memory Card
   thumbnail: https://picsum.photos/seed/S0081701/300/300
   price: '45.72'
-first_page: true
-last_page: true
+previous_page: 
+next_page: 
+current_page: 1
+total_products: 6
 ---

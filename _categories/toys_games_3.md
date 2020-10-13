@@ -94,6 +94,8 @@ products:
   title: Lionessolutions Happor Air Conditioner
   thumbnail: https://picsum.photos/seed/S0087302/300/300
   price: '44.31'
-first_page: false
-last_page: false
+previous_page: "/categories/toys_games/2"
+next_page: "/categories/toys_games/4"
+current_page: 3
+total_products: 142
 ---

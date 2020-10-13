@@ -38,6 +38,8 @@ products:
   title: Murkmellow Smart Phone
   thumbnail: https://picsum.photos/seed/S0064003/300/300
   price: '36.89'
-first_page: true
-last_page: true
+previous_page: 
+next_page: 
+current_page: 1
+total_products: 6
 ---

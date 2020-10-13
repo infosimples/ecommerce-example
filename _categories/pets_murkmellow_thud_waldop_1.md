@@ -38,6 +38,8 @@ products:
   title: Garply Sweater
   thumbnail: https://picsum.photos/seed/S0037503/300/300
   price: '40.07'
-first_page: true
-last_page: true
+previous_page: 
+next_page: 
+current_page: 1
+total_products: 6
 ---

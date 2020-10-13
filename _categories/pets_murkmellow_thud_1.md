@@ -98,6 +98,8 @@ products:
   title: Bar Electronic
   thumbnail: https://picsum.photos/seed/S0038901/300/300
   price: '53.53'
-first_page: true
-last_page: false
+previous_page: 
+next_page: "/categories/pets/murkmellow/thud/2"
+current_page: 1
+total_products: 21
 ---

@@ -100,6 +100,8 @@ products:
   title: Grault Iron
   thumbnail: https://picsum.photos/seed/S0053801/300/300
   price: '55.34'
-first_page: true
-last_page: false
+previous_page: 
+next_page: "/categories/sports/foo/2"
+current_page: 1
+total_products: 63
 ---

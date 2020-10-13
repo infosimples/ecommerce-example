@@ -58,6 +58,8 @@ products:
   title: Murkmellow Bar Remote Control
   thumbnail: https://picsum.photos/seed/S0097203/300/300
   price: '36.27'
-first_page: true
-last_page: true
+previous_page: 
+next_page: 
+current_page: 1
+total_products: 11
 ---

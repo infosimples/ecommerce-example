@@ -38,6 +38,8 @@ products:
   title: Foobar Underwear
   thumbnail: https://picsum.photos/seed/S0076901/300/300
   price: '57.52'
-first_page: true
-last_page: true
+previous_page: 
+next_page: 
+current_page: 1
+total_products: 6
 ---

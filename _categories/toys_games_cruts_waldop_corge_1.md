@@ -42,6 +42,8 @@ products:
   title: Quux Laptop
   thumbnail: https://picsum.photos/seed/S0039901/300/300
   price: '48.93'
-first_page: true
-last_page: true
+previous_page: 
+next_page: 
+current_page: 1
+total_products: 7
 ---

@@ -50,6 +50,8 @@ products:
   title: Dinglebop Video Camera
   thumbnail: https://picsum.photos/seed/S0090401/300/300
   price: '51.56'
-first_page: true
-last_page: true
+previous_page: 
+next_page: 
+current_page: 1
+total_products: 9
 ---

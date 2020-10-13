@@ -54,6 +54,8 @@ products:
   title: Qux T-Shirt
   thumbnail: https://picsum.photos/seed/S0006701/300/300
   price: '49.16'
-first_page: true
-last_page: true
+previous_page: 
+next_page: 
+current_page: 1
+total_products: 10
 ---

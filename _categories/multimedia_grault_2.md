@@ -100,6 +100,8 @@ products:
   title: Plumbus Deep Freezer
   thumbnail: https://picsum.photos/seed/S0061801/300/300
   price: '36.8'
-first_page: false
-last_page: false
+previous_page: "/categories/multimedia/grault/1"
+next_page: "/categories/multimedia/grault/3"
+current_page: 2
+total_products: 61
 ---

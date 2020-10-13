@@ -96,6 +96,8 @@ products:
   title: Happor Skirt
   thumbnail: https://picsum.photos/seed/S0064701/300/300
   price: '41.95'
-first_page: true
-last_page: false
+previous_page: 
+next_page: "/categories/pets/murkmellow/2"
+current_page: 1
+total_products: 46
 ---

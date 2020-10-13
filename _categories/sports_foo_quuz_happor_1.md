@@ -42,6 +42,8 @@ products:
   title: Girzes Tracksuit
   thumbnail: https://picsum.photos/seed/S0069401/300/300
   price: '48.72'
-first_page: true
-last_page: true
+previous_page: 
+next_page: 
+current_page: 1
+total_products: 7
 ---

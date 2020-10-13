@@ -102,6 +102,8 @@ products:
   title: Happor Scale
   thumbnail: https://picsum.photos/seed/S0054603/300/300
   price: '29.84'
-first_page: true
-last_page: false
+previous_page: 
+next_page: "/categories/eletronics/garply/2"
+current_page: 1
+total_products: 60
 ---

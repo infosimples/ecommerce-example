@@ -52,6 +52,8 @@ products:
   title: Waldop Flash Drive
   thumbnail: https://picsum.photos/seed/S0073302/300/300
   price: '54.17'
-first_page: true
-last_page: true
+previous_page: 
+next_page: 
+current_page: 1
+total_products: 10
 ---

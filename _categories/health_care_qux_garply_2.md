@@ -26,6 +26,8 @@ products:
   title: Iponno Suspenders
   thumbnail: https://picsum.photos/seed/S0036301/300/300
   price: '46.7'
-first_page: false
-last_page: true
+previous_page: "/categories/health_care/qux/garply/1"
+next_page: 
+current_page: 2
+total_products: 22
 ---

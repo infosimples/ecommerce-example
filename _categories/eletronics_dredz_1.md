@@ -96,6 +96,8 @@ products:
   title: Bar Sweater
   thumbnail: https://picsum.photos/seed/S0018401/300/300
   price: '50.69'
-first_page: true
-last_page: false
+previous_page: 
+next_page: "/categories/eletronics/dredz/2"
+current_page: 1
+total_products: 52
 ---

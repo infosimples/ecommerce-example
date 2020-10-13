@@ -98,6 +98,8 @@ products:
   title: Waldop Electronic
   thumbnail: https://picsum.photos/seed/S0084301/300/300
   price: '54.58'
-first_page: true
-last_page: false
+previous_page: 
+next_page: "/categories/pets/2"
+current_page: 1
+total_products: 145
 ---

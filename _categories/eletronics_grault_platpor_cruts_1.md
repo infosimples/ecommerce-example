@@ -46,6 +46,8 @@ products:
   title: Platpor Thong
   thumbnail: https://picsum.photos/seed/S0099703/300/300
   price: '22.74'
-first_page: true
-last_page: true
+previous_page: 
+next_page: 
+current_page: 1
+total_products: 8
 ---

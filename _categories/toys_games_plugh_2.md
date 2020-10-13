@@ -98,6 +98,8 @@ products:
   title: Plumbus Video Camera
   thumbnail: https://picsum.photos/seed/S0022901/300/300
   price: '45.07'
-first_page: false
-last_page: false
+previous_page: "/categories/toys_games/plugh/1"
+next_page: "/categories/toys_games/plugh/3"
+current_page: 2
+total_products: 41
 ---

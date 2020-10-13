@@ -102,6 +102,8 @@ products:
   title: Quux Uniform
   thumbnail: https://picsum.photos/seed/S0016401/300/300
   price: '61.59'
-first_page: true
-last_page: false
+previous_page: 
+next_page: "/categories/health_care/qux/2"
+current_page: 1
+total_products: 90
 ---

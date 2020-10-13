@@ -104,6 +104,8 @@ products:
   title: Girzes Shorts
   thumbnail: https://picsum.photos/seed/S0014501/300/300
   price: '39.76'
-first_page: false
-last_page: false
+previous_page: "/categories/eletronics/8"
+next_page: "/categories/eletronics/10"
+current_page: 9
+total_products: 318
 ---

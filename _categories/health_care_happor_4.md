@@ -100,6 +100,8 @@ products:
   title: Blurri Keyboard
   thumbnail: https://picsum.photos/seed/S0001702/300/300
   price: '53.55'
-first_page: false
-last_page: false
+previous_page: "/categories/health_care/happor/3"
+next_page: "/categories/health_care/happor/5"
+current_page: 4
+total_products: 100
 ---

@@ -30,6 +30,8 @@ products:
   title: Girzes Shorts
   thumbnail: https://picsum.photos/seed/S0076301/300/300
   price: '30.78'
-first_page: true
-last_page: true
+previous_page: 
+next_page: 
+current_page: 1
+total_products: 4
 ---

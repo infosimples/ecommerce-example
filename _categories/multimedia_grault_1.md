@@ -98,6 +98,8 @@ products:
   title: Blurri Tablet
   thumbnail: https://picsum.photos/seed/S0088701/300/300
   price: '24.77'
-first_page: true
-last_page: false
+previous_page: 
+next_page: "/categories/multimedia/grault/2"
+current_page: 1
+total_products: 61
 ---

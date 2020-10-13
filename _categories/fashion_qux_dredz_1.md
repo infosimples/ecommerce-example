@@ -98,6 +98,8 @@ products:
   title: Bar Turtleneck
   thumbnail: https://picsum.photos/seed/S0035501/300/300
   price: '59.22'
-first_page: true
-last_page: true
+previous_page: 
+next_page: 
+current_page: 1
+total_products: 20
 ---

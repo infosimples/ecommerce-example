@@ -28,6 +28,8 @@ products:
   title: Waldop Microwave Oven
   thumbnail: https://picsum.photos/seed/S0091201/300/300
   price: '51.83'
-first_page: true
-last_page: true
+previous_page: 
+next_page: 
+current_page: 1
+total_products: 4
 ---

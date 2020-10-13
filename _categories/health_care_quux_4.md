@@ -50,6 +50,8 @@ products:
   title: Quux Shirt
   thumbnail: https://picsum.photos/seed/S0056003/300/300
   price: '49.6'
-first_page: false
-last_page: true
+previous_page: "/categories/health_care/quux/3"
+next_page: 
+current_page: 4
+total_products: 67
 ---

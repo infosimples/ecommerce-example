@@ -99,6 +99,8 @@ products:
   title: Thud Calculator
   thumbnail: https://picsum.photos/seed/S0037102/300/300
   price: '49.0'
-first_page: false
-last_page: false
+previous_page: "/categories/eletronics/12"
+next_page: "/categories/eletronics/14"
+current_page: 13
+total_products: 318
 ---

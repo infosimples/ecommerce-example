@@ -100,6 +100,8 @@ products:
   title: Girzes Tracksuit
   thumbnail: https://picsum.photos/seed/S0069401/300/300
   price: '48.72'
-first_page: false
-last_page: false
+previous_page: "/categories/eletronics/corge/1"
+next_page: "/categories/eletronics/corge/3"
+current_page: 2
+total_products: 72
 ---

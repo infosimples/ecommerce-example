@@ -98,6 +98,8 @@ products:
   title: Thud Food Processor
   thumbnail: https://picsum.photos/seed/S0052902/300/300
   price: '43.01'
-first_page: true
-last_page: false
+previous_page: 
+next_page: "/categories/fashion/baz/2"
+current_page: 1
+total_products: 92
 ---

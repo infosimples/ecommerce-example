@@ -96,6 +96,8 @@ products:
   title: Happor Vinyl
   thumbnail: https://picsum.photos/seed/S0063302/300/300
   price: '44.37'
-first_page: true
-last_page: false
+previous_page: 
+next_page: "/categories/toys_games/plugh/2"
+current_page: 1
+total_products: 41
 ---

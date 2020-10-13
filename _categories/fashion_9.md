@@ -78,6 +78,8 @@ products:
   title: Murkmellow Suspenders
   thumbnail: https://picsum.photos/seed/S0093703/300/300
   price: '37.27'
-first_page: false
-last_page: true
+previous_page: "/categories/fashion/8"
+next_page: 
+current_page: 9
+total_products: 176
 ---

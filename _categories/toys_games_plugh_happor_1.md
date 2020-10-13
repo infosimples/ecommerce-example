@@ -28,6 +28,8 @@ products:
   title: Garply Turtleneck
   thumbnail: https://picsum.photos/seed/S0072502/300/300
   price: '48.32'
-first_page: true
-last_page: true
+previous_page: 
+next_page: 
+current_page: 1
+total_products: 4
 ---

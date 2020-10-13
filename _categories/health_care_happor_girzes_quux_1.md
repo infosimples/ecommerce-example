@@ -38,6 +38,8 @@ products:
   title: Special Plugh Tie
   thumbnail: https://picsum.photos/seed/S0006901/300/300
   price: '52.64'
-first_page: true
-last_page: true
+previous_page: 
+next_page: 
+current_page: 1
+total_products: 6
 ---

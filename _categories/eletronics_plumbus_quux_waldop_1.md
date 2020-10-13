@@ -18,6 +18,8 @@ products:
   title: Dredz Turtleneck
   thumbnail: https://picsum.photos/seed/S0037201/300/300
   price: '35.4'
-first_page: true
-last_page: true
+previous_page: 
+next_page: 
+current_page: 1
+total_products: 1
 ---

@@ -62,6 +62,8 @@ products:
   title: Thud Speaker
   thumbnail: https://picsum.photos/seed/S0053302/300/300
   price: '42.27'
-first_page: false
-last_page: true
+previous_page: "/categories/health_care/qux/4"
+next_page: 
+current_page: 5
+total_products: 90
 ---

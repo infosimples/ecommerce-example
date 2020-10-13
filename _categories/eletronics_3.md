@@ -102,6 +102,8 @@ products:
   title: Plumbus Belt
   thumbnail: https://picsum.photos/seed/S0034202/300/300
   price: '36.33'
-first_page: false
-last_page: false
+previous_page: "/categories/eletronics/2"
+next_page: "/categories/eletronics/4"
+current_page: 3
+total_products: 318
 ---

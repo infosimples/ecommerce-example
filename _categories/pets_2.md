@@ -96,6 +96,8 @@ products:
   title: Plain Blurri Monitor
   thumbnail: https://picsum.photos/seed/S0043702/300/300
   price: '58.49'
-first_page: false
-last_page: false
+previous_page: "/categories/pets/1"
+next_page: "/categories/pets/3"
+current_page: 2
+total_products: 145
 ---

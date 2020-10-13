@@ -98,6 +98,8 @@ products:
   title: Girzes Toaster
   thumbnail: https://picsum.photos/seed/S0083602/300/300
   price: '48.66'
-first_page: false
-last_page: false
+previous_page: "/categories/pets/girzes/1"
+next_page: "/categories/pets/girzes/3"
+current_page: 2
+total_products: 44
 ---

@@ -102,6 +102,8 @@ products:
   title: Efficient Happor Washing Machine
   thumbnail: https://picsum.photos/seed/S0021701/300/300
   price: '44.91'
-first_page: false
-last_page: false
+previous_page: "/categories/eletronics/4"
+next_page: "/categories/eletronics/6"
+current_page: 5
+total_products: 318
 ---

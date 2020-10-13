@@ -38,6 +38,8 @@ products:
   title: Corge Lantern
   thumbnail: https://picsum.photos/seed/S0035304/300/300
   price: '40.08'
-first_page: true
-last_page: true
+previous_page: 
+next_page: 
+current_page: 1
+total_products: 6
 ---

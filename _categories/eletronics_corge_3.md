@@ -100,6 +100,8 @@ products:
   title: Dinglebop Suit
   thumbnail: https://picsum.photos/seed/S0048703/300/300
   price: '23.4'
-first_page: false
-last_page: false
+previous_page: "/categories/eletronics/corge/2"
+next_page: "/categories/eletronics/corge/4"
+current_page: 3
+total_products: 72
 ---

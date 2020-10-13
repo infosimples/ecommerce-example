@@ -98,6 +98,8 @@ products:
   title: Iponno Fax Machine
   thumbnail: https://picsum.photos/seed/S0092301/300/300
   price: '32.4'
-first_page: true
-last_page: false
+previous_page: 
+next_page: "/categories/eletronics/dredz/plumbus/2"
+current_page: 1
+total_products: 21
 ---

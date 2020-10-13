@@ -26,6 +26,8 @@ products:
   title: Thud Underwear
   thumbnail: https://picsum.photos/seed/S0050001/300/300
   price: '55.76'
-first_page: false
-last_page: true
+previous_page: "/categories/sports/foo/dredz/1"
+next_page: 
+current_page: 2
+total_products: 22
 ---

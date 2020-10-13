@@ -30,6 +30,8 @@ products:
   title: Thud Air Conditioner
   thumbnail: https://picsum.photos/seed/S0056701/300/300
   price: '30.22'
-first_page: true
-last_page: true
+previous_page: 
+next_page: 
+current_page: 1
+total_products: 4
 ---

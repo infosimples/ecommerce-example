@@ -100,6 +100,8 @@ products:
   title: Plumbus Dish Washer
   thumbnail: https://picsum.photos/seed/S0083702/300/300
   price: '45.15'
-first_page: false
-last_page: false
+previous_page: "/categories/health_care/qux/1"
+next_page: "/categories/health_care/qux/3"
+current_page: 2
+total_products: 90
 ---

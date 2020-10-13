@@ -66,6 +66,8 @@ products:
   title: Baz Dish Washer
   thumbnail: https://picsum.photos/seed/S0024804/300/300
   price: '38.76'
-first_page: true
-last_page: true
+previous_page: 
+next_page: 
+current_page: 1
+total_products: 13
 ---

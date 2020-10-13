@@ -102,6 +102,8 @@ products:
   title: Dinglebop Coffee Maker
   thumbnail: https://picsum.photos/seed/S0033602/300/300
   price: '32.46'
-first_page: false
-last_page: false
+previous_page: "/categories/health_care/quux/2"
+next_page: "/categories/health_care/quux/4"
+current_page: 3
+total_products: 67
 ---

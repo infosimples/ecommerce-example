@@ -22,6 +22,8 @@ products:
   title: Garply Sweater
   thumbnail: https://picsum.photos/seed/S0037503/300/300
   price: '40.07'
-first_page: false
-last_page: true
+previous_page: "/categories/pets/murkmellow/thud/1"
+next_page: 
+current_page: 2
+total_products: 21
 ---

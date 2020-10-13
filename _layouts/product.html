@@ -14,6 +14,17 @@ layout: default
 <div class="content">
   <section class="page">
     <div class="container">
+      <nav aria-label="breadcrumbs" class="current-category">
+        <a href="{{ '/' | relative_url }}">Commercia</a>>
+        {% for category in page.categories[0] %}
+        {% if forloop.last %}
+        <a class="bold" href="{{ category | append: '/1' | relative_url }}">{{ category }}</a>
+        {% else %}
+        <a href="{{ category | append: '/1' | relative_url }}">{{ category }}</a> >
+        {% endif %}
+        {% endfor %}
+      </nav>
+
       <h2 id="product_title">{{ page.title }}</h2>
       <div class="brand">{{ page.brand }}</div>
       <div class="skus-area">

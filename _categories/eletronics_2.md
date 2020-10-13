@@ -102,6 +102,8 @@ products:
   title: Murkmellow Refrigerator
   thumbnail: https://picsum.photos/seed/S0023301/300/300
   price: '37.42'
-first_page: false
-last_page: false
+previous_page: "/categories/eletronics/1"
+next_page: "/categories/eletronics/3"
+current_page: 2
+total_products: 318
 ---

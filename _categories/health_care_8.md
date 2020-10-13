@@ -91,6 +91,8 @@ products:
   title: Bar Washing Machine
   thumbnail: https://picsum.photos/seed/S0032603/300/300
   price: '41.69'
-first_page: false
-last_page: false
+previous_page: "/categories/health_care/7"
+next_page: "/categories/health_care/9"
+current_page: 8
+total_products: 352
 ---

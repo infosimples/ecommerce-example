@@ -62,6 +62,8 @@ products:
   title: Waldop Flash Drive
   thumbnail: https://picsum.photos/seed/S0049602/300/300
   price: '44.92'
-first_page: false
-last_page: true
+previous_page: "/categories/health_care/grault/2"
+next_page: 
+current_page: 3
+total_products: 50
 ---
